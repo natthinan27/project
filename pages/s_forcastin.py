@@ -37,4 +37,3 @@ if st.button("พยากรณ์ข้อมูล"):
     st.button("ไม่พยากรณ์ข้อมูล")
 else:
     st.button("ไม่พยากรณ์ข้อมูล")
-เขียนถึง Kairung Hengq, Wasika Jittisak, Tortakoon Sukpan, Nonthakan Jarpun, Ronnapoom Ponpai, นายกล้า'า นายกล้า'า บา'นา'น่า'า และ Chinnawat Poochaisang
