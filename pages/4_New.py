@@ -12,7 +12,7 @@ st.header("Show chart")
 chart_data=pd.read_csv("./Data/shopping22.csv")
 
 dftext=pd.DataFrame(df)
-st.bar_chart(dftext['Item Purchased','Age'].value_counts())
+st.bar_chart(dftext['Item Purchased','Color'].value_counts())
 
 
 
