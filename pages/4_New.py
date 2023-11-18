@@ -23,14 +23,15 @@ chart_data=pd.read_csv("./Data/shopping22.csv")
 #plt.axis('equal')
 #st.pyplot(fig)
 
-columns = ['Seasonss', 'Gender']
+grouped_data = df.groupby(['Season', 'Gender']).size().reset_index(name='count')
+pivot_table = pd.pivot_table(grouped_data, values='count', index='Season', columns='Gender', fill_value=0)
 
 # Plot the line chart
 plt.plot(pivot_table.index, pivot_table['Gender'])
 plt.xlabel('Season')
 plt.ylabel('Gender')
-plt.title('Line Chart of Count by Season')
-st.pyplot(fig)
+plt.title('Line Chart of Gender Distribution by Season')
+plt.show(
 
 
 #st.line_chart(
