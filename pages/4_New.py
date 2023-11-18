@@ -23,11 +23,14 @@ chart_data=pd.read_csv("./Data/shopping22.csv")
 #plt.axis('equal')
 #st.pyplot(fig)
 
-columns = ['Season', 'Gender']
+columns = ['Seasonss', 'Gender']
 
-# Plot the bar chart
-st.bar_chart(pivot_table)
-
+# Plot the line chart
+plt.plot(pivot_table.index, pivot_table['Gender'])
+plt.xlabel('Season')
+plt.ylabel('Gender')
+plt.title('Line Chart of Count by Season')
+st.pyplot(fig)
 
 
 #st.line_chart(
