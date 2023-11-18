@@ -11,11 +11,22 @@ st.write(df.head(10))
 st.header("Show chart")
 chart_data=pd.read_csv("./Data/shopping22.csv")
 
-# Load your data into a DataFrame
-df = pd.read_csv('data.csv')
+import matplotlib.pyplot as plt
 
-# Call the plot function to generate a plot of the data
-plot(df)
+def plot(df):
+    # Select a column to plot
+    column_name = 'Age'
+
+    # Create a line plot of the selected column
+    plt.plot(df['index'], df[column_name])
+
+    # Add labels and title to the plot
+    plt.xlabel('index')
+    plt.ylabel(column_name)
+    plt.title('Plot of ' + column_name)
+
+    # Display the plot
+    plt.show()
 #st.line_chart(
  #  chart_data, x="stock_index_price", y=["interest_rate", "unemployment_rate"], color=["#FF0000", "#0000FF"]  # Optional)
 
