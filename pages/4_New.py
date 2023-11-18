@@ -11,15 +11,11 @@ st.write(df.head(10))
 st.header("Show chart")
 chart_data=pd.read_csv("./Data/shopping22.csv")
 
-#dftext=pd.DataFrame(df)
-#st.bar_chart(dftext['Item Purchased'].value_counts())
+dftext=pd.DataFrame(df)
+st.bar_chart(dftext['Item Purchased','Age'].value_counts())
 
 
-# Select the columns to plot
-columns = ['Item Purchased', 'Age']
 
-# Plot the bar chart
-st.bar_chart(df[columns].value_counts())
 
 
 #st.line_chart(
