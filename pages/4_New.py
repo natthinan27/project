@@ -17,12 +17,16 @@ chart_data=pd.read_csv("./Data/shopping22.csv")
 #st.bar_chart(dftext['Item Purchased','Color'].value_counts())
 grouped_data = df.groupby(['Season', 'Gender']).size().reset_index(name='count')
 pivot_table = pd.pivot_table(grouped_data, values='count', index='Season', columns='Gender', fill_value=0)
-fig, ax = plt.subplots(figsize=(15, 7))
-colors = ['#57b199', '#7fc15a', '#ffa53b']
-pivot_table.plot.pie(subplots=True, autopct='%1.1f%%', ax=ax, colors=colors)
-plt.axis('equal')
-st.pyplot(fig)
 
+# Create a line chart
+plt.figure(figsize=(15, 7))
+pivot_table.plot(kind='line', marker='o', linewidth=2)
+plt.xlabel('Season')
+plt.ylabel('Count')
+plt.title('Line Chart of Gender Distribution by Season')
+plt.legend(title='Gender')
+plt.grid(True)
+plt.show()
 #grouped_data = df.groupby(['Season', 'Gender']).size().reset_index(name='count')
 #pivot_table = pd.pivot_table(grouped_data, values='count', index='Season', columns='Gender', fill_value=0)
 
