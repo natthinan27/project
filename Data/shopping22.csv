@@ -1,0 +1,1001 @@
+Customer ID,Age,Gender,Item Purchased,Category,Purchase Amount (USD),Size,Color,Season,Review Rating,Subscription Status,Payment Method,Shipping Type,Discount Applied,Promo Code Used,Previous Purchases,Preferred Payment Method,Frequency of Purchases
+1,22,Male,Coat,Outerwear,58,XL,Indigo,Winter,2.7,No,Cash,Express,No,No,30,Credit Card,Weekly
+2,33,Male,Sweater,Clothing,57,M,Turquoise,Spring,3.9,No,Credit Card,Express,No,No,48,Debit Card,Fortnightly
+3,57,Male,Shorts,Clothing,96,L,Turquoise,Winter,2.6,No,Bank Transfer,Store Pickup,No,No,31,Venmo,Bi-Weekly
+4,60,Male,Sneakers,Footwear,97,S,Gray,Summer,3.5,No,PayPal,Free Shipping,No,No,33,Venmo,Fortnightly
+5,30,Male,Sweater,Clothing,42,L,Peach,Winter,4.4,No,Debit Card,Next Day Air,No,No,39,Credit Card,Weekly
+6,41,Male,T-shirt,Clothing,62,L,Gold,Spring,4.9,No,Venmo,Store Pickup,No,No,46,Debit Card,Weekly
+7,58,Male,Handbag,Accessories,67,M,Green,Fall,3.9,No,Credit Card,Standard,No,No,24,Venmo,Annually
+8,34,Male,Sneakers,Footwear,46,L,Gold,Summer,3.5,No,PayPal,Standard,No,No,37,Venmo,Fortnightly
+9,67,Male,Jacket,Outerwear,71,M,Lavender,Spring,4.3,No,Credit Card,Next Day Air,No,No,7,Debit Card,Monthly
+10,58,Male,Backpack,Accessories,99,S,Blue,Fall,3.4,No,Credit Card,Free Shipping,No,No,6,Debit Card,Fortnightly
+11,41,Male,Jeans,Clothing,28,M,Magenta,Fall,2.7,No,Credit Card,Standard,No,No,16,Cash,Bi-Weekly
+12,42,Male,Belt,Accessories,77,L,Blue,Summer,3.6,No,Bank Transfer,Standard,No,No,33,Bank Transfer,Annually
+13,50,Male,Boots,Footwear,63,S,Blue,Summer,4.9,No,Venmo,Express,No,No,18,PayPal,Bi-Weekly
+14,40,Male,Shorts,Clothing,62,M,Olive,Spring,3.5,No,Credit Card,Free Shipping,No,No,24,PayPal,Weekly
+15,32,Male,Jeans,Clothing,92,M,White,Summer,3.8,No,Debit Card,Free Shipping,No,No,24,Cash,Quarterly
+16,51,Male,Shoes,Footwear,72,L,White,Winter,4.5,No,Venmo,2-Day Shipping,No,No,48,Credit Card,Every 3 Months
+17,26,Male,Hat,Accessories,79,M,Purple,Summer,4,No,Venmo,Express,No,No,4,Cash,Weekly
+18,32,Male,T-shirt,Clothing,27,M,White,Summer,4.7,No,Credit Card,Free Shipping,No,No,20,Cash,Weekly
+19,58,Male,Sunglasses,Accessories,39,M,White,Fall,3.8,No,Credit Card,Express,No,No,47,Debit Card,Every 3 Months
+20,51,Male,Socks,Clothing,86,S,Peach,Spring,4.5,No,Cash,Next Day Air,No,No,50,Cash,Quarterly
+21,19,Male,Shirt,Clothing,94,XL,Gold,Fall,5,No,PayPal,Express,No,No,31,PayPal,Monthly
+22,57,Male,Shorts,Clothing,53,M,Teal,Spring,2.8,No,Credit Card,Express,No,No,29,PayPal,Quarterly
+23,66,Male,Shirt,Clothing,85,S,Cyan,Summer,4.4,No,Cash,Standard,No,No,4,Cash,Annually
+24,62,Male,Socks,Clothing,50,L,Pink,Fall,4.7,No,Cash,Free Shipping,No,No,40,Bank Transfer,Bi-Weekly
+25,58,Male,Pants,Clothing,47,XL,Magenta,Winter,3.8,No,Credit Card,Express,No,No,31,Cash,Monthly
+26,23,Male,Boots,Footwear,75,M,Pink,Winter,4.9,No,Bank Transfer,Next Day Air,No,No,41,Credit Card,Weekly
+27,45,Male,T-shirt,Clothing,60,M,Turquoise,Winter,4.2,No,PayPal,Express,No,No,44,Debit Card,Annually
+28,20,Male,T-shirt,Clothing,36,S,Pink,Spring,4.9,No,Cash,2-Day Shipping,No,No,31,Bank Transfer,Weekly
+29,33,Male,Coat,Outerwear,80,L,Gray,Spring,3.9,No,Debit Card,Express,No,No,45,Cash,Every 3 Months
+30,30,Male,Hat,Accessories,96,M,White,Spring,4.9,No,Venmo,2-Day Shipping,No,No,50,Credit Card,Quarterly
+31,50,Male,Sunglasses,Accessories,80,M,Blue,Winter,4.8,No,Credit Card,Express,No,No,7,Venmo,Annually
+32,62,Male,Blouse,Clothing,71,M,Cyan,Summer,3.3,No,Bank Transfer,Free Shipping,No,No,5,Bank Transfer,Every 3 Months
+33,69,Male,Jewelry,Accessories,29,M,Blue,Fall,4.6,No,Debit Card,Free Shipping,No,No,48,Cash,Monthly
+34,34,Male,Jewelry,Accessories,53,M,Yellow,Spring,4.5,No,Bank Transfer,2-Day Shipping,No,No,19,PayPal,Fortnightly
+35,49,Male,Skirt,Clothing,35,M,Charcoal,Summer,4.1,No,Venmo,2-Day Shipping,No,No,39,Venmo,Fortnightly
+36,65,Male,Scarf,Accessories,75,M,Lavender,Fall,3.2,No,Cash,2-Day Shipping,No,No,45,Credit Card,Quarterly
+37,66,Male,Pants,Clothing,52,M,Teal,Fall,4.2,No,Cash,2-Day Shipping,No,No,35,Credit Card,Monthly
+38,41,Male,Hat,Accessories,77,M,Beige,Winter,4.8,No,PayPal,Free Shipping,No,No,8,Venmo,Monthly
+39,37,Male,Gloves,Accessories,24,L,Blue,Fall,4.1,No,Credit Card,Next Day Air,No,No,11,Credit Card,Quarterly
+40,32,Male,Shirt,Clothing,78,XL,Purple,Winter,3.7,No,Venmo,Store Pickup,No,No,32,Cash,Annually
+41,42,Male,Sandals,Footwear,98,M,Gold,Winter,2.6,No,Cash,Store Pickup,No,No,46,Bank Transfer,Every 3 Months
+42,31,Male,Socks,Clothing,57,L,Blue,Winter,3,No,Debit Card,Standard,No,No,7,PayPal,Every 3 Months
+43,61,Male,Handbag,Accessories,78,M,Black,Summer,4.4,No,Bank Transfer,Express,No,No,1,Debit Card,Annually
+44,36,Male,Jacket,Outerwear,76,M,Charcoal,Fall,4.7,No,Bank Transfer,Next Day Air,No,No,32,Credit Card,Monthly
+45,60,Male,Shorts,Clothing,26,M,Purple,Spring,2.7,No,Venmo,2-Day Shipping,No,No,31,Credit Card,Annually
+46,51,Male,Sandals,Footwear,78,M,Orange,Winter,2.8,No,Debit Card,2-Day Shipping,No,No,39,Bank Transfer,Quarterly
+47,68,Male,Scarf,Accessories,53,M,Yellow,Summer,2.9,No,Debit Card,Standard,No,No,9,Venmo,Quarterly
+48,46,Male,Sandals,Footwear,100,XL,Cyan,Summer,4.4,No,Debit Card,Free Shipping,No,No,49,Credit Card,Weekly
+49,19,Male,Jeans,Clothing,73,XL,Yellow,Winter,2.7,No,Credit Card,Express,No,No,34,Cash,Every 3 Months
+50,30,Male,Skirt,Clothing,40,M,Maroon,Winter,4.5,No,Credit Card,Store Pickup,No,No,35,Bank Transfer,Monthly
+51,51,Male,Gloves,Accessories,76,S,Black,Winter,2.8,No,Credit Card,Store Pickup,No,No,50,Debit Card,Weekly
+52,28,Male,Skirt,Clothing,80,S,Lavender,Fall,3.1,No,Venmo,Free Shipping,No,No,4,Bank Transfer,Fortnightly
+53,41,Male,Sweater,Clothing,80,XL,Violet,Winter,3.8,No,Cash,Store Pickup,No,No,32,Cash,Weekly
+54,29,Male,Blouse,Clothing,67,XL,Olive,Spring,2.9,No,Bank Transfer,Express,No,No,11,PayPal,Fortnightly
+55,25,Male,Sweater,Clothing,61,M,Teal,Spring,3.8,No,Credit Card,Express,No,No,49,Credit Card,Annually
+56,60,Male,Shirt,Clothing,76,XL,Teal,Spring,4.7,No,Bank Transfer,Standard,No,No,9,Cash,Annually
+57,63,Male,Jewelry,Accessories,55,XL,Beige,Summer,3.2,No,Venmo,Free Shipping,No,No,30,PayPal,Bi-Weekly
+58,51,Male,T-shirt,Clothing,85,L,Maroon,Summer,4,No,Cash,Next Day Air,No,No,33,Cash,Monthly
+59,22,Male,Scarf,Accessories,69,S,Peach,Spring,4.9,No,Venmo,2-Day Shipping,No,No,8,Debit Card,Annually
+60,54,Male,Belt,Accessories,26,L,Beige,Summer,3.7,No,Credit Card,Store Pickup,No,No,29,Debit Card,Fortnightly
+61,18,Male,T-shirt,Clothing,64,M,Silver,Summer,4.8,No,Credit Card,Next Day Air,No,No,4,Credit Card,Monthly
+62,29,Male,Sneakers,Footwear,60,S,Peach,Fall,3.6,No,Bank Transfer,Standard,No,No,19,Debit Card,Monthly
+63,59,Male,Gloves,Accessories,36,M,Turquoise,Winter,4.6,No,Debit Card,Express,No,No,10,PayPal,Fortnightly
+64,25,Male,Sandals,Footwear,21,L,Orange,Spring,4.3,No,Venmo,2-Day Shipping,No,No,39,Debit Card,Monthly
+65,19,Male,Backpack,Accessories,72,S,Cyan,Fall,3.2,No,Bank Transfer,2-Day Shipping,No,No,21,Venmo,Quarterly
+66,56,Male,Pants,Clothing,62,S,Silver,Summer,3.8,No,Venmo,Store Pickup,No,No,12,Bank Transfer,Monthly
+67,31,Male,T-shirt,Clothing,44,XL,Gold,Winter,4.2,No,Debit Card,Standard,No,No,9,Credit Card,Fortnightly
+68,45,Male,Skirt,Clothing,52,M,Brown,Fall,3.4,No,Debit Card,2-Day Shipping,No,No,20,Venmo,Quarterly
+69,23,Male,Gloves,Accessories,58,M,Silver,Spring,4.7,No,Bank Transfer,Next Day Air,No,No,44,Cash,Fortnightly
+70,18,Male,Blouse,Clothing,77,S,Beige,Spring,3.9,No,PayPal,2-Day Shipping,No,No,16,Debit Card,Every 3 Months
+71,43,Male,Blouse,Clothing,99,L,Violet,Spring,4.3,No,Debit Card,Store Pickup,No,No,27,Debit Card,Fortnightly
+72,56,Male,Jeans,Clothing,96,XL,Violet,Fall,2.7,No,Bank Transfer,Standard,No,No,14,Cash,Every 3 Months
+73,43,Male,T-shirt,Clothing,64,M,Lavender,Summer,4.6,No,Credit Card,Standard,No,No,24,Credit Card,Monthly
+74,64,Male,Sweater,Clothing,44,XL,Red,Fall,2.9,No,Credit Card,Express,No,No,49,Bank Transfer,Weekly
+75,67,Male,Pants,Clothing,33,L,Purple,Fall,3.6,No,Cash,Free Shipping,No,No,14,Cash,Weekly
+76,63,Male,Boots,Footwear,71,M,Brown,Winter,3.9,No,Debit Card,Next Day Air,No,No,6,Credit Card,Quarterly
+77,54,Male,Skirt,Clothing,36,M,Gray,Fall,2.6,No,Credit Card,Standard,No,No,20,Venmo,Quarterly
+78,69,Male,Gloves,Accessories,62,L,Pink,Fall,3.6,No,Cash,Express,No,No,3,Credit Card,Annually
+79,34,Male,Socks,Clothing,29,L,Magenta,Summer,3.4,No,Credit Card,Store Pickup,No,No,5,Credit Card,Monthly
+80,56,Male,T-shirt,Clothing,33,L,Charcoal,Spring,3.5,No,Debit Card,Express,No,No,46,Cash,Bi-Weekly
+81,34,Male,Blouse,Clothing,33,L,Yellow,Fall,3.1,No,PayPal,2-Day Shipping,No,No,8,Debit Card,Monthly
+82,58,Male,Blouse,Clothing,41,M,Red,Winter,4.3,No,Bank Transfer,Standard,No,No,13,Cash,Bi-Weekly
+83,44,Male,Scarf,Accessories,54,L,Blue,Winter,5,No,Debit Card,Store Pickup,No,No,25,Bank Transfer,Quarterly
+84,25,Male,Backpack,Accessories,58,M,Cyan,Spring,4.9,No,PayPal,Store Pickup,No,No,39,Debit Card,Fortnightly
+85,27,Male,Shorts,Clothing,30,S,Pink,Summer,4.3,No,Bank Transfer,Next Day Air,No,No,15,Bank Transfer,Bi-Weekly
+86,26,Male,Jewelry,Accessories,53,S,Maroon,Winter,4.4,No,Credit Card,Standard,No,No,35,Cash,Monthly
+87,18,Male,Gloves,Accessories,91,L,Beige,Spring,4.4,No,Cash,Next Day Air,No,No,46,Cash,Bi-Weekly
+88,64,Male,Hoodie,Clothing,44,XL,Gold,Fall,3.5,No,Cash,Express,No,No,3,PayPal,Monthly
+89,62,Male,Hoodie,Clothing,89,XL,Turquoise,Winter,3.4,No,Bank Transfer,Free Shipping,No,No,48,Credit Card,Weekly
+90,59,Male,Skirt,Clothing,57,L,Peach,Spring,2.5,No,Debit Card,Next Day Air,No,No,27,Bank Transfer,Weekly
+91,36,Male,Sunglasses,Accessories,57,M,Lavender,Spring,3.4,No,Debit Card,Store Pickup,No,No,5,Credit Card,Weekly
+92,69,Male,Jewelry,Accessories,74,M,Gray,Summer,2.6,No,Venmo,Next Day Air,No,No,48,Debit Card,Quarterly
+93,39,Male,Jacket,Outerwear,30,M,Blue,Fall,4.6,No,Bank Transfer,2-Day Shipping,No,No,12,Venmo,Weekly
+94,28,Male,Dress,Clothing,20,L,Red,Summer,3.7,No,Venmo,Express,No,No,10,PayPal,Fortnightly
+95,42,Male,Hoodie,Clothing,90,M,Purple,Fall,2.5,No,Credit Card,Free Shipping,No,No,48,Debit Card,Bi-Weekly
+96,31,Male,Jeans,Clothing,61,L,Indigo,Fall,4.5,No,Debit Card,Express,No,No,3,Debit Card,Monthly
+97,57,Male,Sandals,Footwear,51,M,Gold,Fall,2.9,No,Cash,Standard,No,No,19,Venmo,Monthly
+98,53,Male,Sunglasses,Accessories,97,L,Teal,Winter,2.9,No,Venmo,Free Shipping,No,No,11,Debit Card,Fortnightly
+99,59,Male,Pants,Clothing,97,L,Magenta,Fall,3.5,No,PayPal,Next Day Air,No,No,25,Venmo,Monthly
+100,32,Male,Shorts,Clothing,40,L,Maroon,Winter,4.2,No,Venmo,Store Pickup,No,No,42,PayPal,Weekly
+101,65,Male,Jewelry,Accessories,85,S,Blue,Summer,3.3,No,Debit Card,Free Shipping,No,No,34,Cash,Quarterly
+102,56,Male,Socks,Clothing,76,S,Beige,Winter,3.9,No,Venmo,Store Pickup,No,No,50,Cash,Quarterly
+103,31,Male,Sandals,Footwear,22,S,Olive,Spring,5,No,Bank Transfer,Store Pickup,No,No,21,Venmo,Monthly
+104,59,Male,Pants,Clothing,63,M,Gold,Summer,3.3,No,Bank Transfer,Standard,No,No,37,Bank Transfer,Weekly
+105,22,Male,T-shirt,Clothing,71,S,Silver,Spring,4.2,No,PayPal,Free Shipping,No,No,46,Cash,Monthly
+106,47,Male,Boots,Footwear,35,M,Teal,Summer,4.9,No,Debit Card,2-Day Shipping,No,No,14,Bank Transfer,Fortnightly
+107,23,Male,Backpack,Accessories,30,M,Green,Spring,4.6,No,Bank Transfer,2-Day Shipping,No,No,24,PayPal,Fortnightly
+108,69,Male,Skirt,Clothing,74,L,Orange,Fall,4.8,No,Cash,Store Pickup,No,No,36,Credit Card,Every 3 Months
+109,18,Male,Scarf,Accessories,71,XL,Charcoal,Winter,2.7,No,Credit Card,Next Day Air,No,No,19,Debit Card,Bi-Weekly
+110,50,Male,Sweater,Clothing,84,S,Black,Spring,4.3,No,PayPal,Store Pickup,No,No,12,Credit Card,Monthly
+111,29,Male,Sandals,Footwear,38,S,Yellow,Fall,3.8,No,Venmo,Express,No,No,13,Debit Card,Quarterly
+112,65,Male,Jewelry,Accessories,81,M,Gray,Spring,4.9,No,Credit Card,Express,No,No,32,Debit Card,Bi-Weekly
+113,29,Male,Sweater,Clothing,56,S,Charcoal,Winter,3.4,No,Cash,2-Day Shipping,No,No,5,Credit Card,Bi-Weekly
+114,49,Male,Skirt,Clothing,48,M,Peach,Winter,3.6,No,Venmo,Express,No,No,29,Cash,Annually
+115,28,Male,Shorts,Clothing,97,L,Green,Fall,3.4,No,Venmo,Standard,No,No,40,Credit Card,Fortnightly
+116,51,Male,Backpack,Accessories,74,M,Magenta,Fall,4.7,No,PayPal,2-Day Shipping,No,No,44,Cash,Weekly
+117,26,Male,Hoodie,Clothing,50,S,Beige,Winter,3,No,PayPal,Next Day Air,No,No,3,Debit Card,Bi-Weekly
+118,38,Male,Skirt,Clothing,71,L,Black,Winter,3.4,No,Venmo,Free Shipping,No,No,35,PayPal,Bi-Weekly
+119,35,Male,Skirt,Clothing,33,S,Purple,Summer,4.6,No,PayPal,Standard,No,No,33,Debit Card,Monthly
+120,34,Male,Backpack,Accessories,56,M,Olive,Summer,3.1,No,Credit Card,Express,No,No,20,PayPal,Bi-Weekly
+121,51,Male,Blouse,Clothing,84,M,Purple,Spring,2.8,No,Bank Transfer,Standard,No,No,40,Cash,Every 3 Months
+122,47,Male,Shirt,Clothing,36,M,Green,Fall,3.5,No,Cash,Store Pickup,No,No,13,Venmo,Annually
+123,18,Male,Gloves,Accessories,63,S,Peach,Summer,4.6,No,PayPal,Standard,No,No,9,PayPal,Monthly
+124,64,Male,Sandals,Footwear,36,XL,Blue,Summer,4.3,No,PayPal,Standard,No,No,7,Cash,Annually
+125,30,Male,Jacket,Outerwear,63,M,Gray,Fall,4.8,No,Venmo,Free Shipping,No,No,42,PayPal,Quarterly
+126,59,Male,Sneakers,Footwear,32,L,Black,Winter,2.9,No,Venmo,Express,No,No,44,Credit Card,Fortnightly
+127,66,Male,Backpack,Accessories,93,M,Silver,Spring,3,No,Venmo,Express,No,No,6,PayPal,Annually
+128,40,Male,Pants,Clothing,29,M,Pink,Summer,2.9,No,Debit Card,Standard,No,No,8,Cash,Every 3 Months
+129,25,Male,Sunglasses,Accessories,92,S,Lavender,Summer,3.7,No,PayPal,Standard,No,No,10,PayPal,Weekly
+130,59,Male,Jeans,Clothing,33,L,Brown,Fall,4.7,No,Debit Card,Standard,No,No,46,Venmo,Quarterly
+131,66,Male,Pants,Clothing,52,L,Turquoise,Spring,3.5,No,Bank Transfer,Store Pickup,No,No,26,Cash,Weekly
+132,54,Male,Jewelry,Accessories,42,S,Olive,Spring,2.7,No,PayPal,Store Pickup,No,No,6,Debit Card,Every 3 Months
+133,42,Male,Hoodie,Clothing,36,M,White,Spring,5,No,Cash,Free Shipping,No,No,47,Credit Card,Every 3 Months
+134,48,Male,Sandals,Footwear,67,L,Violet,Summer,4.1,No,Cash,Next Day Air,No,No,28,Venmo,Annually
+135,34,Male,Jacket,Outerwear,43,L,Gold,Winter,2.7,No,Debit Card,Free Shipping,No,No,23,Bank Transfer,Annually
+136,19,Male,Blouse,Clothing,68,XL,Violet,Spring,4.8,No,Debit Card,Free Shipping,No,No,45,Cash,Fortnightly
+137,70,Male,Jewelry,Accessories,60,S,Teal,Summer,4.3,No,PayPal,2-Day Shipping,No,No,44,PayPal,Every 3 Months
+138,43,Male,Socks,Clothing,53,M,Olive,Summer,4.5,No,Venmo,2-Day Shipping,No,No,11,Bank Transfer,Monthly
+139,46,Male,Jeans,Clothing,23,L,Blue,Spring,3.8,No,Bank Transfer,Standard,No,No,39,Debit Card,Bi-Weekly
+140,66,Male,Gloves,Accessories,57,L,Magenta,Winter,3.7,No,Bank Transfer,Store Pickup,No,No,20,PayPal,Every 3 Months
+141,50,Male,Hat,Accessories,89,L,Gray,Fall,3.9,No,Venmo,2-Day Shipping,No,No,48,PayPal,Fortnightly
+142,55,Male,Shoes,Footwear,99,XL,Peach,Winter,3.3,No,PayPal,Standard,No,No,46,Credit Card,Quarterly
+143,63,Male,Pants,Clothing,28,M,Cyan,Fall,3.4,No,Credit Card,Express,No,No,22,PayPal,Monthly
+144,32,Male,Socks,Clothing,53,L,Violet,Summer,3.8,No,Debit Card,Next Day Air,No,No,45,Cash,Annually
+145,30,Male,Hoodie,Clothing,45,M,Gold,Winter,2.7,No,Debit Card,Free Shipping,No,No,49,Cash,Every 3 Months
+146,35,Male,Hoodie,Clothing,38,M,Gold,Winter,2.9,No,Debit Card,2-Day Shipping,No,No,9,Credit Card,Every 3 Months
+147,59,Male,Pants,Clothing,49,M,White,Summer,4.5,No,Bank Transfer,Standard,No,No,41,Credit Card,Quarterly
+148,59,Male,Shirt,Clothing,32,M,Gray,Summer,2.6,No,Debit Card,Store Pickup,No,No,2,PayPal,Monthly
+149,54,Male,T-shirt,Clothing,37,L,Brown,Winter,3.1,No,Debit Card,Next Day Air,No,No,39,PayPal,Bi-Weekly
+150,63,Male,Dress,Clothing,80,L,Gray,Winter,4.7,No,Venmo,Store Pickup,No,No,12,PayPal,Quarterly
+151,43,Male,Backpack,Accessories,78,L,Blue,Summer,4.6,No,Cash,Free Shipping,No,No,26,PayPal,Every 3 Months
+152,33,Male,Gloves,Accessories,53,L,Gold,Summer,2.7,No,Bank Transfer,Next Day Air,No,No,32,Bank Transfer,Bi-Weekly
+153,57,Male,Shoes,Footwear,82,L,Yellow,Summer,4.6,No,PayPal,2-Day Shipping,No,No,50,Cash,Bi-Weekly
+154,25,Male,Skirt,Clothing,33,XL,Green,Spring,4.8,No,Cash,Standard,No,No,3,PayPal,Fortnightly
+155,26,Male,Gloves,Accessories,77,M,Pink,Winter,4.2,No,Bank Transfer,Free Shipping,No,No,3,Venmo,Quarterly
+156,50,Male,Hoodie,Clothing,56,M,Pink,Winter,4.9,No,Credit Card,Express,No,No,37,Cash,Monthly
+157,70,Male,Socks,Clothing,37,M,Pink,Winter,4.9,No,Cash,Express,No,No,20,Credit Card,Fortnightly
+158,68,Male,Gloves,Accessories,54,M,Cyan,Spring,4.5,No,Venmo,Store Pickup,No,No,26,Cash,Bi-Weekly
+159,39,Male,Shorts,Clothing,67,M,Gray,Winter,2.7,No,Cash,Store Pickup,No,No,47,Cash,Quarterly
+160,46,Male,Shoes,Footwear,90,M,White,Fall,3.1,No,Credit Card,Store Pickup,No,No,7,Credit Card,Every 3 Months
+161,57,Male,Jeans,Clothing,72,L,Red,Summer,3.3,No,Bank Transfer,2-Day Shipping,No,No,40,Credit Card,Annually
+162,47,Male,Boots,Footwear,59,L,Black,Summer,2.6,No,Cash,Free Shipping,No,No,45,Debit Card,Quarterly
+163,40,Male,Hat,Accessories,45,M,Silver,Fall,4.4,No,Debit Card,Standard,No,No,20,PayPal,Fortnightly
+164,52,Male,Shorts,Clothing,30,L,Pink,Spring,3.9,No,Bank Transfer,Standard,No,No,11,Credit Card,Weekly
+165,40,Male,Pants,Clothing,51,S,Cyan,Summer,4.6,No,PayPal,Express,No,No,50,Debit Card,Monthly
+166,67,Male,Sweater,Clothing,90,M,White,Fall,4.9,No,Venmo,Express,No,No,25,Debit Card,Quarterly
+167,67,Male,Jacket,Outerwear,95,XL,Purple,Winter,3.7,No,Venmo,Express,No,No,5,Credit Card,Fortnightly
+168,37,Male,Dress,Clothing,81,L,Yellow,Fall,3.7,No,Venmo,Standard,No,No,4,Venmo,Annually
+169,67,Male,Shirt,Clothing,70,S,Blue,Spring,4.2,No,Credit Card,Standard,No,No,25,Credit Card,Weekly
+170,64,Male,Dress,Clothing,32,S,Cyan,Winter,3.5,No,PayPal,Next Day Air,No,No,11,Bank Transfer,Fortnightly
+171,28,Male,Belt,Accessories,94,M,Indigo,Spring,2.9,No,Debit Card,Next Day Air,No,No,4,Credit Card,Bi-Weekly
+172,54,Male,Hat,Accessories,29,XL,Indigo,Spring,3.4,No,PayPal,Next Day Air,No,No,1,Venmo,Monthly
+173,54,Male,Backpack,Accessories,31,M,Silver,Summer,3.3,No,Debit Card,Express,No,No,48,PayPal,Every 3 Months
+174,24,Male,Skirt,Clothing,20,XL,Red,Fall,4.5,No,Debit Card,Standard,No,No,9,Venmo,Every 3 Months
+175,27,Male,Gloves,Accessories,44,M,Peach,Winter,4.6,No,Credit Card,2-Day Shipping,No,No,2,PayPal,Fortnightly
+176,53,Male,Jacket,Outerwear,77,L,Turquoise,Fall,2.9,No,Credit Card,Express,No,No,4,Cash,Quarterly
+177,32,Male,Handbag,Accessories,51,M,Pink,Spring,3.2,No,Debit Card,Next Day Air,No,No,43,PayPal,Fortnightly
+178,24,Male,Sandals,Footwear,49,M,Teal,Summer,2.6,No,Debit Card,Free Shipping,No,No,32,Bank Transfer,Annually
+179,45,Male,Sunglasses,Accessories,78,L,Magenta,Spring,3.8,No,Cash,Store Pickup,No,No,1,Cash,Quarterly
+180,49,Male,Jeans,Clothing,98,L,Blue,Spring,2.8,No,PayPal,Store Pickup,No,No,38,Debit Card,Fortnightly
+181,51,Male,Sandals,Footwear,94,M,Green,Winter,4.4,No,Venmo,Store Pickup,No,No,25,PayPal,Fortnightly
+182,69,Male,Shoes,Footwear,91,L,Violet,Summer,4.7,No,Cash,Express,No,No,42,PayPal,Quarterly
+183,41,Male,Sunglasses,Accessories,77,M,Turquoise,Summer,2.7,No,PayPal,2-Day Shipping,No,No,32,PayPal,Monthly
+184,59,Male,Scarf,Accessories,97,M,Pink,Summer,2.6,No,Credit Card,Next Day Air,No,No,21,Debit Card,Quarterly
+185,26,Male,Skirt,Clothing,58,M,Black,Summer,3.4,No,Bank Transfer,2-Day Shipping,No,No,26,PayPal,Fortnightly
+186,23,Male,Gloves,Accessories,97,M,Gold,Spring,3.9,No,Cash,2-Day Shipping,No,No,6,Credit Card,Fortnightly
+187,62,Male,Coat,Outerwear,48,L,Green,Summer,3.4,No,Debit Card,2-Day Shipping,No,No,14,Venmo,Quarterly
+188,69,Male,Belt,Accessories,23,XL,White,Summer,3.4,No,Debit Card,Express,No,No,4,Cash,Quarterly
+189,46,Male,Pants,Clothing,79,M,Gold,Winter,3.9,No,Credit Card,Free Shipping,No,No,26,Bank Transfer,Weekly
+190,35,Male,Jewelry,Accessories,42,S,Charcoal,Spring,4,No,Cash,Express,No,No,39,PayPal,Bi-Weekly
+191,32,Male,Backpack,Accessories,95,L,White,Spring,3.4,No,Debit Card,2-Day Shipping,No,No,15,PayPal,Annually
+192,46,Male,Sneakers,Footwear,29,M,Brown,Summer,3.7,No,Venmo,Next Day Air,No,No,1,Venmo,Every 3 Months
+193,33,Male,Hoodie,Clothing,98,L,Gold,Winter,4.9,No,PayPal,2-Day Shipping,No,No,28,Venmo,Monthly
+194,32,Male,Blouse,Clothing,96,S,Purple,Spring,5,No,Cash,Express,No,No,17,Cash,Weekly
+195,33,Male,Sunglasses,Accessories,66,M,Brown,Fall,2.9,No,Bank Transfer,Next Day Air,No,No,24,Credit Card,Weekly
+196,67,Male,Boots,Footwear,80,S,Teal,Spring,3,No,Credit Card,Standard,No,No,29,Debit Card,Quarterly
+197,67,Male,Sneakers,Footwear,27,L,Indigo,Summer,3.3,No,Cash,Next Day Air,No,No,18,Cash,Every 3 Months
+198,42,Male,Backpack,Accessories,25,M,Purple,Fall,4.7,No,PayPal,Express,No,No,10,Debit Card,Bi-Weekly
+199,20,Male,Pants,Clothing,45,M,Orange,Fall,3.4,No,Debit Card,2-Day Shipping,No,No,19,Cash,Quarterly
+200,39,Male,Socks,Clothing,89,L,Indigo,Winter,4.6,No,Credit Card,2-Day Shipping,No,No,26,Debit Card,Monthly
+201,41,Female,Blouse,Clothing,67,XL,Violet,Winter,4,No,Bank Transfer,Standard,No,No,23,Cash,Bi-Weekly
+202,41,Female,Blouse,Clothing,43,L,Olive,Winter,2.6,No,Credit Card,Free Shipping,No,No,46,Credit Card,Quarterly
+203,27,Female,Boots,Footwear,32,S,Orange,Spring,4.6,No,Debit Card,Standard,No,No,19,PayPal,Bi-Weekly
+204,38,Female,Scarf,Accessories,39,S,Teal,Spring,3.5,No,Venmo,2-Day Shipping,No,No,24,Credit Card,Every 3 Months
+205,41,Female,Sandals,Footwear,41,M,Gray,Spring,4,No,Bank Transfer,2-Day Shipping,No,No,43,Venmo,Monthly
+206,58,Female,Sunglasses,Accessories,53,L,Black,Winter,4.8,No,PayPal,Standard,No,No,14,Debit Card,Fortnightly
+207,58,Female,Coat,Outerwear,27,M,Indigo,Spring,3.9,No,PayPal,Standard,No,No,7,Venmo,Annually
+208,19,Female,Sunglasses,Accessories,82,XL,Lavender,Summer,3.7,No,Cash,Next Day Air,No,No,50,PayPal,Bi-Weekly
+209,43,Female,Blouse,Clothing,87,M,Beige,Winter,3.1,No,Debit Card,Store Pickup,No,No,15,Debit Card,Every 3 Months
+210,27,Female,Backpack,Accessories,78,M,Indigo,Winter,3,No,Bank Transfer,Next Day Air,No,No,40,Credit Card,Every 3 Months
+211,32,Female,Belt,Accessories,32,M,Blue,Summer,2.9,No,Bank Transfer,Store Pickup,No,No,41,Credit Card,Monthly
+212,28,Female,Socks,Clothing,38,XL,Orange,Fall,2.9,No,Debit Card,Next Day Air,No,No,34,Venmo,Quarterly
+213,48,Female,Shoes,Footwear,37,M,Yellow,Winter,4,No,Cash,Standard,No,No,27,Cash,Bi-Weekly
+214,43,Female,Coat,Outerwear,83,L,Cyan,Winter,3.5,No,Debit Card,Express,No,No,12,Cash,Every 3 Months
+215,45,Female,Sweater,Clothing,72,M,Yellow,Fall,3.8,No,PayPal,Express,No,No,1,Debit Card,Bi-Weekly
+216,26,Female,Shirt,Clothing,30,M,Cyan,Fall,4.5,No,Credit Card,Express,No,No,39,Debit Card,Bi-Weekly
+217,62,Female,Shorts,Clothing,66,M,Green,Winter,2.7,No,Credit Card,Express,No,No,13,Credit Card,Bi-Weekly
+218,58,Female,Shirt,Clothing,45,XL,White,Winter,2.9,No,Cash,Store Pickup,No,No,50,Venmo,Annually
+219,19,Female,Sunglasses,Accessories,73,S,Black,Fall,4.9,No,Credit Card,Free Shipping,No,No,36,Cash,Weekly
+220,64,Female,Shoes,Footwear,67,L,Charcoal,Winter,3.8,No,Bank Transfer,Standard,No,No,31,Debit Card,Monthly
+221,33,Female,Sunglasses,Accessories,72,XL,Brown,Spring,4.9,No,Venmo,Free Shipping,No,No,3,Debit Card,Bi-Weekly
+222,20,Female,Handbag,Accessories,24,M,Cyan,Fall,4.6,No,Venmo,Standard,No,No,11,Cash,Fortnightly
+223,45,Female,Sunglasses,Accessories,68,L,Beige,Winter,3.5,No,Venmo,Express,No,No,16,PayPal,Quarterly
+224,28,Female,Shirt,Clothing,70,M,Magenta,Spring,4.2,No,Bank Transfer,2-Day Shipping,No,No,12,Cash,Quarterly
+225,47,Female,Shirt,Clothing,64,L,Indigo,Winter,3.7,No,Bank Transfer,Free Shipping,No,No,37,Debit Card,Every 3 Months
+226,54,Female,Sweater,Clothing,91,M,Maroon,Spring,2.8,No,Cash,Store Pickup,No,No,43,Credit Card,Every 3 Months
+227,64,Female,Handbag,Accessories,82,M,Gray,Winter,4.8,No,Debit Card,2-Day Shipping,No,No,9,Cash,Weekly
+228,45,Female,Shirt,Clothing,24,M,Black,Summer,2.7,No,Debit Card,Express,No,No,15,Venmo,Bi-Weekly
+229,40,Female,Jewelry,Accessories,80,L,Yellow,Spring,3.6,No,Venmo,Store Pickup,No,No,17,Credit Card,Weekly
+230,31,Female,Socks,Clothing,53,XL,White,Winter,4.5,No,Debit Card,Next Day Air,No,No,42,Venmo,Fortnightly
+231,38,Female,T-shirt,Clothing,50,M,Orange,Spring,4,No,Credit Card,Free Shipping,No,No,14,Venmo,Monthly
+232,36,Female,Jewelry,Accessories,31,M,Magenta,Fall,4.5,No,Cash,2-Day Shipping,No,No,49,Credit Card,Bi-Weekly
+233,65,Female,Backpack,Accessories,88,L,Black,Spring,3.9,No,Credit Card,Express,No,No,3,PayPal,Quarterly
+234,27,Female,Hat,Accessories,52,M,Brown,Summer,3.8,No,Credit Card,Standard,No,No,28,Venmo,Monthly
+235,38,Female,Gloves,Accessories,22,M,Orange,Fall,4.7,No,Bank Transfer,Next Day Air,No,No,41,Bank Transfer,Quarterly
+236,58,Female,Sneakers,Footwear,27,XL,Gray,Spring,4.6,No,Debit Card,Standard,No,No,11,Venmo,Weekly
+237,31,Female,Skirt,Clothing,34,M,White,Spring,3.6,No,Debit Card,Express,No,No,46,PayPal,Weekly
+238,28,Female,Handbag,Accessories,39,M,White,Spring,4.3,No,Debit Card,2-Day Shipping,No,No,15,Credit Card,Weekly
+239,28,Female,Sunglasses,Accessories,53,M,Violet,Fall,3,No,Cash,Standard,No,No,15,Cash,Monthly
+240,32,Female,Sweater,Clothing,46,M,Beige,Winter,4.3,No,PayPal,Express,No,No,34,Venmo,Weekly
+241,61,Female,Handbag,Accessories,85,L,Beige,Summer,4.8,No,Venmo,Next Day Air,No,No,13,Cash,Monthly
+242,38,Female,Skirt,Clothing,86,L,Purple,Spring,3.7,No,Bank Transfer,Free Shipping,No,No,27,PayPal,Monthly
+243,54,Female,Socks,Clothing,63,M,Brown,Summer,2.6,No,Cash,Free Shipping,No,No,37,Bank Transfer,Weekly
+244,29,Female,Shirt,Clothing,44,M,Orange,Spring,3.4,No,Debit Card,Standard,No,No,37,Credit Card,Monthly
+245,50,Female,Sneakers,Footwear,95,XL,Cyan,Summer,3.9,No,Cash,Free Shipping,No,No,4,Venmo,Every 3 Months
+246,32,Female,Belt,Accessories,49,M,Charcoal,Summer,4.8,No,Venmo,Free Shipping,No,No,1,Credit Card,Every 3 Months
+247,38,Female,Pants,Clothing,77,L,Purple,Spring,2.8,No,Credit Card,Free Shipping,No,No,29,Bank Transfer,Quarterly
+248,52,Female,Jewelry,Accessories,63,L,Peach,Spring,4.4,No,Venmo,Standard,No,No,50,Venmo,Annually
+249,61,Female,Pants,Clothing,83,M,Violet,Winter,3.1,No,Credit Card,Standard,No,No,38,Debit Card,Bi-Weekly
+250,25,Female,Jewelry,Accessories,93,M,Peach,Spring,3.8,No,Credit Card,Store Pickup,No,No,15,PayPal,Annually
+251,22,Female,Jeans,Clothing,91,S,Maroon,Winter,4.1,No,Bank Transfer,2-Day Shipping,No,No,44,Debit Card,Every 3 Months
+252,47,Female,Scarf,Accessories,99,L,Maroon,Fall,4.6,No,Credit Card,Free Shipping,No,No,14,Cash,Weekly
+253,50,Female,Belt,Accessories,24,M,Peach,Spring,4.9,No,PayPal,Next Day Air,No,No,5,Debit Card,Monthly
+254,45,Female,Dress,Clothing,82,M,Silver,Summer,4.8,No,PayPal,Next Day Air,No,No,11,Credit Card,Annually
+255,33,Female,T-shirt,Clothing,28,M,Indigo,Winter,3.9,No,PayPal,Express,No,No,15,Credit Card,Annually
+256,42,Female,Boots,Footwear,67,M,Silver,Winter,2.6,No,Venmo,Free Shipping,No,No,46,Credit Card,Annually
+257,52,Female,Dress,Clothing,88,M,Olive,Fall,3.7,No,PayPal,Standard,No,No,30,Venmo,Monthly
+258,69,Female,Jewelry,Accessories,70,S,Gray,Fall,4.7,No,Cash,Standard,No,No,2,Cash,Annually
+259,55,Female,Skirt,Clothing,100,M,Black,Summer,4.5,No,Venmo,Standard,No,No,28,PayPal,Monthly
+260,38,Female,Handbag,Accessories,28,L,Maroon,Summer,4.7,No,PayPal,Free Shipping,No,No,9,PayPal,Quarterly
+261,57,Female,Coat,Outerwear,48,S,Olive,Spring,3.6,No,Venmo,Standard,No,No,47,Credit Card,Weekly
+262,33,Female,Hoodie,Clothing,43,S,Gold,Fall,2.8,No,Credit Card,Free Shipping,No,No,21,Debit Card,Bi-Weekly
+263,57,Female,Pants,Clothing,40,L,Pink,Fall,4,No,PayPal,Express,No,No,42,Credit Card,Every 3 Months
+264,52,Female,Boots,Footwear,97,M,Brown,Spring,3.6,No,Debit Card,Free Shipping,No,No,28,Credit Card,Weekly
+265,44,Female,Coat,Outerwear,25,S,White,Fall,3.8,No,Credit Card,2-Day Shipping,No,No,13,Venmo,Fortnightly
+266,48,Female,Scarf,Accessories,45,M,Blue,Summer,4.4,No,Bank Transfer,Standard,No,No,25,PayPal,Fortnightly
+267,52,Female,Boots,Footwear,49,L,Orange,Fall,2.8,No,Cash,Store Pickup,No,No,38,Debit Card,Every 3 Months
+268,34,Female,Sneakers,Footwear,36,L,Silver,Summer,3.4,No,Cash,Free Shipping,No,No,40,Venmo,Annually
+269,26,Female,Sweater,Clothing,48,S,Gray,Fall,4.9,No,Cash,Express,No,No,25,Cash,Every 3 Months
+270,36,Female,Belt,Accessories,62,S,Blue,Fall,4.3,No,Bank Transfer,Next Day Air,No,No,20,Cash,Every 3 Months
+271,24,Female,Jewelry,Accessories,74,M,White,Winter,3.4,No,Bank Transfer,Free Shipping,No,No,44,Credit Card,Bi-Weekly
+272,30,Female,Handbag,Accessories,100,L,Yellow,Fall,3.9,No,Credit Card,Next Day Air,No,No,9,PayPal,Every 3 Months
+273,31,Female,Jacket,Outerwear,39,S,Indigo,Fall,4.2,No,Venmo,Free Shipping,No,No,11,Venmo,Every 3 Months
+274,25,Female,Boots,Footwear,65,M,Blue,Summer,2.7,No,PayPal,Store Pickup,No,No,3,Bank Transfer,Fortnightly
+275,57,Female,Sneakers,Footwear,99,XL,Peach,Summer,4.1,No,Cash,Store Pickup,No,No,34,Credit Card,Weekly
+276,61,Female,Scarf,Accessories,68,XL,Lavender,Winter,4.5,No,PayPal,2-Day Shipping,No,No,48,Cash,Every 3 Months
+277,30,Female,Coat,Outerwear,97,M,Silver,Summer,2.8,No,Debit Card,Express,No,No,28,Cash,Fortnightly
+278,38,Female,Shorts,Clothing,47,L,Gold,Winter,3.4,No,PayPal,Standard,No,No,20,Venmo,Annually
+279,53,Female,Shorts,Clothing,56,S,Cyan,Spring,3.9,No,Credit Card,Free Shipping,No,No,49,Bank Transfer,Fortnightly
+280,31,Female,Jeans,Clothing,91,L,Olive,Fall,2.6,No,PayPal,Next Day Air,No,No,14,PayPal,Weekly
+281,70,Female,Gloves,Accessories,93,L,Teal,Fall,4.4,No,Cash,2-Day Shipping,No,No,9,Bank Transfer,Monthly
+282,21,Female,Pants,Clothing,36,L,Pink,Winter,4.9,No,PayPal,Standard,No,No,37,Venmo,Annually
+283,33,Female,Dress,Clothing,45,M,Orange,Summer,3.6,No,Venmo,Store Pickup,No,No,4,Credit Card,Weekly
+284,60,Female,Pants,Clothing,44,M,Charcoal,Winter,2.8,No,Venmo,2-Day Shipping,No,No,1,Credit Card,Quarterly
+285,45,Female,Gloves,Accessories,32,L,Red,Spring,4.3,No,PayPal,2-Day Shipping,No,No,36,Debit Card,Bi-Weekly
+286,46,Female,Belt,Accessories,36,S,Teal,Summer,3,No,Venmo,Express,No,No,21,Cash,Bi-Weekly
+287,62,Female,Belt,Accessories,85,S,Silver,Summer,3.3,No,Credit Card,2-Day Shipping,No,No,16,Credit Card,Monthly
+288,63,Female,Skirt,Clothing,36,L,Black,Winter,2.5,No,Debit Card,Store Pickup,No,No,42,Cash,Monthly
+289,69,Female,Socks,Clothing,55,S,Pink,Spring,5,No,Debit Card,2-Day Shipping,No,No,31,Debit Card,Monthly
+290,46,Female,Belt,Accessories,20,XL,Teal,Summer,4.3,No,Cash,2-Day Shipping,No,No,6,Credit Card,Weekly
+291,69,Female,Shirt,Clothing,91,M,Teal,Fall,4.2,No,Venmo,Free Shipping,No,No,24,Venmo,Monthly
+292,66,Female,Dress,Clothing,71,L,Green,Summer,3.9,No,PayPal,Standard,No,No,7,PayPal,Bi-Weekly
+293,41,Female,Socks,Clothing,64,M,Charcoal,Spring,3.9,No,Bank Transfer,Store Pickup,No,No,25,Venmo,Weekly
+294,32,Female,Jacket,Outerwear,21,L,Indigo,Spring,4.2,No,Bank Transfer,Free Shipping,No,No,18,Cash,Bi-Weekly
+295,69,Female,Sweater,Clothing,100,S,White,Winter,3.5,No,Cash,Store Pickup,No,No,14,Bank Transfer,Quarterly
+296,29,Female,Jeans,Clothing,96,M,Orange,Summer,2.5,No,Venmo,Standard,No,No,42,Debit Card,Bi-Weekly
+297,70,Female,Jewelry,Accessories,91,M,White,Spring,2.9,No,Credit Card,Express,No,No,6,Venmo,Every 3 Months
+298,41,Female,Sweater,Clothing,40,S,Yellow,Spring,2.7,No,Venmo,Next Day Air,No,No,14,Venmo,Every 3 Months
+299,31,Female,Hoodie,Clothing,53,M,Red,Summer,4.7,No,Venmo,Express,No,No,30,Debit Card,Quarterly
+300,31,Female,Sunglasses,Accessories,48,S,Charcoal,Winter,3.8,No,Bank Transfer,Standard,No,No,10,Cash,Monthly
+301,57,Female,Sandals,Footwear,70,M,Lavender,Winter,3.7,No,Cash,Express,No,No,7,PayPal,Weekly
+302,29,Female,Coat,Outerwear,29,L,Charcoal,Summer,4.7,No,Credit Card,Express,No,No,28,Credit Card,Quarterly
+303,70,Female,Belt,Accessories,29,M,Maroon,Fall,3.6,No,Cash,Next Day Air,No,No,19,Bank Transfer,Quarterly
+304,51,Female,Blouse,Clothing,53,M,Brown,Fall,2.8,No,Venmo,Express,No,No,13,Credit Card,Every 3 Months
+305,45,Female,Skirt,Clothing,79,M,Lavender,Winter,3.7,No,Venmo,Store Pickup,No,No,23,Venmo,Fortnightly
+306,18,Female,Shorts,Clothing,65,XL,Brown,Spring,3.5,No,Bank Transfer,Express,No,No,5,Venmo,Weekly
+307,37,Female,Dress,Clothing,99,M,Olive,Summer,3.7,No,Venmo,Store Pickup,No,No,17,Venmo,Bi-Weekly
+308,23,Female,Sunglasses,Accessories,60,L,Lavender,Winter,3,No,Debit Card,Next Day Air,No,No,31,Venmo,Weekly
+309,39,Female,Shoes,Footwear,86,M,Gold,Winter,4.9,No,Cash,Free Shipping,No,No,19,PayPal,Weekly
+310,62,Female,Belt,Accessories,73,M,Silver,Winter,4.6,No,Venmo,Free Shipping,No,No,8,Venmo,Fortnightly
+311,70,Female,Belt,Accessories,45,M,Violet,Winter,3.3,No,Bank Transfer,Free Shipping,No,No,15,Credit Card,Annually
+312,20,Female,Belt,Accessories,70,S,Brown,Summer,3,No,Bank Transfer,Next Day Air,No,No,18,Credit Card,Every 3 Months
+313,42,Female,Belt,Accessories,65,M,Teal,Fall,3.5,No,Credit Card,Standard,No,No,16,PayPal,Annually
+314,41,Female,Skirt,Clothing,55,L,Peach,Summer,4.2,No,Debit Card,Store Pickup,No,No,13,Cash,Monthly
+315,24,Female,T-shirt,Clothing,65,M,Maroon,Spring,4.5,No,Credit Card,Express,No,No,38,PayPal,Every 3 Months
+316,37,Female,Scarf,Accessories,21,XL,Lavender,Spring,2.8,No,Venmo,Express,No,No,27,Bank Transfer,Bi-Weekly
+317,30,Female,Blouse,Clothing,26,L,Lavender,Summer,4.9,No,Credit Card,Store Pickup,No,No,31,Bank Transfer,Quarterly
+318,58,Female,Sunglasses,Accessories,71,S,Purple,Summer,3.3,No,Bank Transfer,Next Day Air,No,No,24,Cash,Bi-Weekly
+319,43,Female,Boots,Footwear,41,M,Green,Summer,3,No,Debit Card,Free Shipping,No,No,21,Debit Card,Bi-Weekly
+320,19,Female,Jacket,Outerwear,44,M,Yellow,Winter,3.9,No,Venmo,2-Day Shipping,No,No,15,PayPal,Annually
+321,23,Female,Jeans,Clothing,81,S,Charcoal,Fall,2.8,No,Bank Transfer,Store Pickup,No,No,48,Venmo,Every 3 Months
+322,65,Female,Sunglasses,Accessories,77,S,Blue,Summer,4.5,No,Debit Card,2-Day Shipping,No,No,47,Cash,Quarterly
+323,58,Female,Sandals,Footwear,26,M,Lavender,Fall,4,No,Debit Card,Free Shipping,No,No,23,PayPal,Weekly
+324,50,Female,Backpack,Accessories,31,M,Brown,Summer,2.9,No,PayPal,Express,No,No,4,PayPal,Quarterly
+325,67,Female,Blouse,Clothing,82,S,White,Spring,4,No,Credit Card,Free Shipping,No,No,47,Credit Card,Every 3 Months
+326,40,Female,Shoes,Footwear,60,XL,Green,Summer,3.4,No,Debit Card,Store Pickup,No,No,7,PayPal,Monthly
+327,55,Female,Shirt,Clothing,70,L,Magenta,Fall,2.5,No,Venmo,Free Shipping,No,No,6,Credit Card,Annually
+328,52,Female,Hoodie,Clothing,26,XL,Peach,Winter,2.8,No,Bank Transfer,2-Day Shipping,No,No,47,Credit Card,Quarterly
+329,62,Female,Dress,Clothing,100,L,Charcoal,Summer,3,No,PayPal,Free Shipping,No,No,7,PayPal,Every 3 Months
+330,64,Female,Dress,Clothing,82,M,Gold,Summer,3.1,No,Bank Transfer,Free Shipping,No,No,1,Debit Card,Quarterly
+331,43,Female,Sneakers,Footwear,24,XL,Purple,Spring,2.6,No,PayPal,2-Day Shipping,No,No,23,Credit Card,Weekly
+332,61,Female,Blouse,Clothing,74,L,Teal,Summer,4.9,No,PayPal,2-Day Shipping,No,No,30,Credit Card,Monthly
+333,26,Female,Backpack,Accessories,58,XL,Green,Summer,3.5,No,Debit Card,Next Day Air,No,No,24,Credit Card,Quarterly
+334,22,Female,Sweater,Clothing,56,L,Orange,Spring,2.6,No,PayPal,Store Pickup,No,No,9,PayPal,Weekly
+335,51,Female,Boots,Footwear,37,L,Peach,Spring,3.5,No,PayPal,2-Day Shipping,No,No,25,Credit Card,Quarterly
+336,69,Female,Handbag,Accessories,64,M,Gold,Spring,4.5,No,Bank Transfer,Free Shipping,No,No,18,Cash,Bi-Weekly
+337,50,Female,Hoodie,Clothing,58,S,Violet,Spring,4.3,No,PayPal,Next Day Air,No,No,7,Venmo,Fortnightly
+338,51,Female,Belt,Accessories,44,L,Charcoal,Summer,4.8,No,Debit Card,Next Day Air,No,No,2,Cash,Annually
+339,56,Female,Jewelry,Accessories,39,M,Brown,Summer,4.2,No,Bank Transfer,Free Shipping,No,No,36,Debit Card,Annually
+340,59,Female,Blouse,Clothing,48,L,Blue,Spring,3.2,No,Bank Transfer,Next Day Air,No,No,31,PayPal,Bi-Weekly
+341,18,Female,Handbag,Accessories,32,M,Gold,Fall,4.1,No,PayPal,Express,No,No,10,Cash,Fortnightly
+342,48,Female,Handbag,Accessories,79,M,Orange,Winter,4,No,Credit Card,Express,No,No,27,PayPal,Monthly
+343,53,Female,Coat,Outerwear,27,L,Turquoise,Winter,2.9,No,Credit Card,Next Day Air,No,No,14,PayPal,Every 3 Months
+344,45,Female,Belt,Accessories,98,S,Peach,Fall,2.6,No,Debit Card,Store Pickup,No,No,17,Credit Card,Monthly
+345,21,Female,Boots,Footwear,67,M,Magenta,Winter,2.7,No,PayPal,Free Shipping,No,No,10,Bank Transfer,Quarterly
+346,42,Female,Socks,Clothing,37,L,Black,Winter,4.6,No,Debit Card,2-Day Shipping,No,No,4,PayPal,Bi-Weekly
+347,60,Female,Shoes,Footwear,49,M,White,Spring,3.2,No,Bank Transfer,Store Pickup,No,No,25,Cash,Every 3 Months
+348,21,Female,Sneakers,Footwear,74,M,Violet,Fall,4.1,No,Cash,2-Day Shipping,No,No,3,PayPal,Bi-Weekly
+349,69,Female,Jewelry,Accessories,93,M,Olive,Summer,3.9,No,PayPal,Standard,No,No,47,Venmo,Fortnightly
+350,40,Female,Handbag,Accessories,60,L,Red,Summer,3,No,Debit Card,Next Day Air,No,No,41,Bank Transfer,Bi-Weekly
+351,31,Female,Coat,Outerwear,76,S,Green,Spring,3.6,No,Cash,Standard,No,No,28,Venmo,Every 3 Months
+352,44,Female,Sunglasses,Accessories,64,L,Gold,Summer,4.6,No,Venmo,Express,No,No,49,Debit Card,Every 3 Months
+353,48,Female,Shoes,Footwear,38,XL,Olive,Spring,4.5,No,Credit Card,Store Pickup,No,No,7,Bank Transfer,Fortnightly
+354,32,Female,Shoes,Footwear,91,L,Brown,Winter,3.2,No,Credit Card,Next Day Air,No,No,22,Bank Transfer,Monthly
+355,42,Female,Boots,Footwear,70,S,Magenta,Summer,4.9,No,Cash,2-Day Shipping,No,No,34,Venmo,Monthly
+356,27,Female,Sandals,Footwear,22,M,Violet,Fall,5,No,Bank Transfer,Standard,No,No,5,Debit Card,Bi-Weekly
+357,69,Female,Gloves,Accessories,59,M,Beige,Spring,3.8,No,Credit Card,Standard,No,No,15,Cash,Bi-Weekly
+358,67,Female,Backpack,Accessories,22,M,Blue,Spring,3.4,No,PayPal,Next Day Air,No,No,26,Bank Transfer,Weekly
+359,41,Female,Handbag,Accessories,74,S,Orange,Winter,3.8,No,Venmo,Store Pickup,No,No,3,Bank Transfer,Fortnightly
+360,46,Female,Sweater,Clothing,71,L,Maroon,Spring,3.2,No,PayPal,Express,No,No,42,Credit Card,Quarterly
+361,47,Female,Coat,Outerwear,80,S,Charcoal,Summer,4.7,No,Credit Card,Store Pickup,No,No,1,Venmo,Monthly
+362,33,Female,T-shirt,Clothing,59,L,Olive,Fall,4.5,No,Debit Card,Express,No,No,20,PayPal,Every 3 Months
+363,51,Female,Backpack,Accessories,96,L,Green,Fall,3.3,No,Bank Transfer,Standard,No,No,39,PayPal,Monthly
+364,26,Female,Sunglasses,Accessories,43,L,Brown,Winter,3.9,No,Debit Card,Store Pickup,No,No,24,Credit Card,Fortnightly
+365,22,Female,Belt,Accessories,76,S,Cyan,Winter,3.6,No,Debit Card,Express,No,No,49,Bank Transfer,Quarterly
+366,49,Female,Jacket,Outerwear,59,M,Beige,Fall,2.8,No,Debit Card,Store Pickup,No,No,7,Venmo,Bi-Weekly
+367,58,Female,Skirt,Clothing,48,L,Teal,Summer,4.3,No,Cash,Free Shipping,No,No,13,Venmo,Every 3 Months
+368,70,Female,Belt,Accessories,22,S,Gray,Spring,3.5,No,Bank Transfer,Free Shipping,No,No,2,Cash,Weekly
+369,32,Female,Boots,Footwear,40,M,Indigo,Winter,4.2,No,Bank Transfer,Express,No,No,4,Debit Card,Weekly
+370,62,Female,Jeans,Clothing,73,L,Magenta,Spring,4.6,No,Venmo,Express,No,No,17,Debit Card,Quarterly
+371,52,Female,Shoes,Footwear,26,XL,Red,Fall,2.6,No,Debit Card,Free Shipping,No,No,43,PayPal,Bi-Weekly
+372,23,Female,Sweater,Clothing,41,L,Turquoise,Spring,3.4,No,Debit Card,Next Day Air,No,No,6,PayPal,Monthly
+373,26,Female,Jewelry,Accessories,98,L,Peach,Spring,3.1,No,Venmo,Standard,No,No,46,PayPal,Quarterly
+374,58,Female,Shirt,Clothing,63,L,White,Winter,3.6,No,PayPal,Free Shipping,No,No,7,Debit Card,Bi-Weekly
+375,26,Female,Boots,Footwear,55,L,Maroon,Winter,4.2,No,Bank Transfer,Next Day Air,No,No,34,Debit Card,Fortnightly
+376,54,Female,Shorts,Clothing,90,XL,Beige,Winter,3.6,No,Credit Card,Standard,No,No,21,PayPal,Every 3 Months
+377,66,Female,Handbag,Accessories,46,M,Blue,Summer,3.6,No,Credit Card,Express,No,No,13,Venmo,Bi-Weekly
+378,60,Female,Sweater,Clothing,88,S,Red,Spring,3,No,Venmo,Store Pickup,No,No,33,Debit Card,Bi-Weekly
+379,32,Female,Belt,Accessories,95,M,Blue,Spring,2.5,No,Bank Transfer,2-Day Shipping,No,No,24,Bank Transfer,Bi-Weekly
+380,48,Female,Belt,Accessories,31,M,Maroon,Fall,4,No,Credit Card,Store Pickup,No,No,4,Bank Transfer,Annually
+381,69,Female,Hoodie,Clothing,42,L,Yellow,Spring,4.1,No,PayPal,Next Day Air,No,No,5,Cash,Bi-Weekly
+382,64,Female,Sneakers,Footwear,44,L,Pink,Winter,4.9,No,Debit Card,Next Day Air,No,No,11,Credit Card,Weekly
+383,56,Female,T-shirt,Clothing,99,M,Maroon,Spring,4,No,Venmo,Next Day Air,No,No,20,Bank Transfer,Annually
+384,22,Female,Pants,Clothing,20,S,Purple,Summer,3.5,No,Venmo,Store Pickup,No,No,28,PayPal,Quarterly
+385,46,Female,Scarf,Accessories,37,S,Indigo,Spring,3.2,No,Bank Transfer,Store Pickup,No,No,43,PayPal,Monthly
+386,24,Female,Sweater,Clothing,50,L,Gray,Winter,2.8,No,Credit Card,Store Pickup,No,No,10,Venmo,Every 3 Months
+387,47,Female,Handbag,Accessories,73,M,Lavender,Summer,3.5,No,Debit Card,Next Day Air,No,No,26,Venmo,Every 3 Months
+388,62,Female,Shirt,Clothing,84,M,Charcoal,Spring,3.1,No,Cash,Free Shipping,No,No,29,Bank Transfer,Monthly
+389,34,Female,Dress,Clothing,64,M,Teal,Spring,3.3,No,PayPal,Store Pickup,No,No,35,Bank Transfer,Quarterly
+390,50,Female,Sandals,Footwear,21,L,Blue,Fall,4.6,No,Debit Card,Free Shipping,No,No,23,Cash,Bi-Weekly
+391,29,Female,Shirt,Clothing,36,M,Peach,Summer,4.9,No,PayPal,Store Pickup,No,No,15,Bank Transfer,Quarterly
+392,68,Female,Dress,Clothing,81,L,Orange,Winter,3.4,No,Bank Transfer,2-Day Shipping,No,No,46,Credit Card,Annually
+393,52,Female,Sunglasses,Accessories,54,L,Silver,Fall,3.5,No,Cash,Next Day Air,No,No,14,Bank Transfer,Bi-Weekly
+394,29,Female,Socks,Clothing,63,L,Red,Summer,4.8,No,Bank Transfer,Store Pickup,No,No,17,Cash,Every 3 Months
+395,22,Female,Sandals,Footwear,59,M,Gray,Summer,2.7,No,Bank Transfer,Store Pickup,No,No,9,Cash,Weekly
+396,62,Female,Hat,Accessories,53,S,Beige,Fall,3.4,No,Cash,Standard,No,No,13,Venmo,Fortnightly
+397,69,Female,Shirt,Clothing,63,L,White,Winter,3.5,No,PayPal,Next Day Air,No,No,20,Bank Transfer,Monthly
+398,48,Female,Shoes,Footwear,33,M,Silver,Fall,3.7,No,Debit Card,Free Shipping,No,No,39,Bank Transfer,Quarterly
+399,66,Female,Pants,Clothing,64,L,Cyan,Summer,3.3,No,Bank Transfer,Next Day Air,No,No,50,Bank Transfer,Quarterly
+400,42,Female,Shirt,Clothing,98,S,Maroon,Fall,2.9,No,Venmo,Free Shipping,No,No,21,Bank Transfer,Bi-Weekly
+401,50,Female,Hat,Accessories,85,L,Purple,Winter,3.9,No,Venmo,Express,No,No,3,Bank Transfer,Weekly
+402,32,Female,Jewelry,Accessories,82,S,Brown,Summer,2.7,No,PayPal,Express,No,No,9,PayPal,Fortnightly
+403,51,Female,Jacket,Outerwear,85,M,Green,Summer,4.3,No,Bank Transfer,Standard,No,No,29,Cash,Bi-Weekly
+404,27,Female,Shirt,Clothing,37,S,Peach,Winter,3,No,PayPal,2-Day Shipping,No,No,42,Bank Transfer,Weekly
+405,43,Female,Pants,Clothing,56,S,Turquoise,Summer,5,No,PayPal,2-Day Shipping,No,No,41,Debit Card,Fortnightly
+406,48,Female,Skirt,Clothing,33,M,Olive,Fall,2.7,No,Debit Card,Express,No,No,17,Debit Card,Monthly
+407,62,Female,Sandals,Footwear,57,M,Yellow,Winter,4.7,No,Venmo,Next Day Air,No,No,20,PayPal,Annually
+408,65,Female,Blouse,Clothing,31,L,Gray,Winter,4.6,No,Debit Card,Standard,No,No,18,Credit Card,Bi-Weekly
+409,50,Female,Socks,Clothing,69,M,Purple,Fall,3.2,No,Bank Transfer,2-Day Shipping,No,No,7,PayPal,Monthly
+410,60,Female,Jacket,Outerwear,92,M,Gray,Winter,4.3,No,Credit Card,Free Shipping,No,No,47,Bank Transfer,Fortnightly
+411,19,Female,Handbag,Accessories,46,L,Lavender,Fall,4.6,No,Bank Transfer,Next Day Air,No,No,2,Bank Transfer,Bi-Weekly
+412,21,Female,Belt,Accessories,81,XL,Indigo,Spring,4.9,No,PayPal,Free Shipping,No,No,25,Debit Card,Quarterly
+413,19,Female,Blouse,Clothing,97,S,Green,Fall,3.8,No,Cash,Express,No,No,26,Venmo,Annually
+414,46,Female,Shirt,Clothing,93,L,Green,Summer,2.6,No,PayPal,Express,No,No,2,Debit Card,Weekly
+415,21,Female,Handbag,Accessories,56,M,Olive,Spring,4.7,No,Venmo,Store Pickup,No,No,45,Venmo,Bi-Weekly
+416,26,Female,Scarf,Accessories,53,M,Charcoal,Fall,4.1,No,PayPal,Free Shipping,No,No,9,Bank Transfer,Bi-Weekly
+417,50,Female,Coat,Outerwear,66,L,Gray,Spring,3.7,No,Debit Card,Store Pickup,No,No,1,Venmo,Weekly
+418,43,Female,Hoodie,Clothing,50,M,Olive,Fall,3,No,Credit Card,Free Shipping,No,No,4,PayPal,Bi-Weekly
+419,61,Female,Shorts,Clothing,97,L,Blue,Summer,4.7,No,Venmo,Standard,No,No,31,Debit Card,Quarterly
+420,63,Female,Sandals,Footwear,79,XL,Silver,Winter,4.7,No,Cash,2-Day Shipping,No,No,21,Credit Card,Every 3 Months
+421,46,Female,Shirt,Clothing,76,M,Magenta,Fall,4,No,Venmo,Store Pickup,No,No,32,Debit Card,Fortnightly
+422,63,Female,Hoodie,Clothing,38,L,Black,Fall,2.6,No,Credit Card,Standard,No,No,16,Venmo,Weekly
+423,23,Female,Socks,Clothing,45,M,Pink,Fall,3,No,Debit Card,Express,No,No,34,Credit Card,Fortnightly
+424,57,Female,Handbag,Accessories,77,XL,Red,Fall,3.3,No,PayPal,Next Day Air,No,No,40,Venmo,Bi-Weekly
+425,57,Female,Jewelry,Accessories,51,M,Peach,Summer,3.4,No,Venmo,Standard,No,No,4,Cash,Every 3 Months
+426,33,Female,Coat,Outerwear,26,L,Lavender,Spring,4,No,Venmo,Standard,No,No,3,Cash,Quarterly
+427,57,Female,Sunglasses,Accessories,76,L,Lavender,Winter,2.6,No,PayPal,Store Pickup,No,No,28,Bank Transfer,Bi-Weekly
+428,55,Female,Gloves,Accessories,94,M,Beige,Winter,3.4,No,Credit Card,Free Shipping,No,No,43,Credit Card,Every 3 Months
+429,65,Female,Jacket,Outerwear,32,S,Indigo,Fall,4.4,No,PayPal,Standard,No,No,20,Cash,Annually
+430,60,Female,Sandals,Footwear,20,S,Cyan,Summer,4.7,No,PayPal,Express,No,No,40,Venmo,Every 3 Months
+431,52,Female,Pants,Clothing,20,M,Yellow,Summer,4.5,No,PayPal,Store Pickup,No,No,34,Venmo,Every 3 Months
+432,34,Female,Jacket,Outerwear,59,M,Peach,Fall,2.9,No,Cash,Store Pickup,No,No,11,Bank Transfer,Every 3 Months
+433,33,Female,Sweater,Clothing,97,M,Yellow,Summer,4.2,No,Cash,Express,No,No,26,Cash,Quarterly
+434,58,Female,T-shirt,Clothing,68,M,Orange,Spring,4.1,No,Credit Card,Next Day Air,No,No,29,Cash,Bi-Weekly
+435,35,Female,Boots,Footwear,66,L,Gray,Spring,4.4,No,Venmo,Store Pickup,No,No,47,Bank Transfer,Weekly
+436,68,Female,Shoes,Footwear,85,L,Yellow,Spring,4.7,No,Bank Transfer,Free Shipping,No,No,48,Venmo,Fortnightly
+437,58,Female,Skirt,Clothing,32,M,Gray,Fall,3.1,No,Bank Transfer,Next Day Air,No,No,29,Cash,Bi-Weekly
+438,34,Female,Coat,Outerwear,44,M,Turquoise,Spring,2.7,No,Cash,2-Day Shipping,No,No,14,Bank Transfer,Monthly
+439,47,Female,Blouse,Clothing,95,L,Gray,Fall,4.6,No,Venmo,Next Day Air,No,No,40,Cash,Every 3 Months
+440,35,Female,Sunglasses,Accessories,85,M,Olive,Winter,4.4,No,Venmo,Next Day Air,No,No,4,Venmo,Weekly
+441,34,Female,Gloves,Accessories,44,XL,Peach,Summer,4.6,No,Debit Card,Free Shipping,No,No,37,Bank Transfer,Weekly
+442,36,Female,Sunglasses,Accessories,30,S,Peach,Winter,4.9,No,Venmo,Express,No,No,47,Credit Card,Bi-Weekly
+443,23,Female,Sneakers,Footwear,21,L,Magenta,Winter,4,No,PayPal,2-Day Shipping,No,No,1,Venmo,Quarterly
+444,68,Female,Hoodie,Clothing,22,M,Purple,Summer,2.9,No,Debit Card,Store Pickup,No,No,26,Cash,Quarterly
+445,23,Female,Boots,Footwear,70,L,Beige,Spring,2.6,No,Bank Transfer,Free Shipping,No,No,12,Debit Card,Quarterly
+446,57,Female,Handbag,Accessories,29,XL,Purple,Spring,4.6,No,Debit Card,Standard,No,No,16,PayPal,Fortnightly
+447,21,Female,Shirt,Clothing,83,S,Yellow,Winter,4.9,No,Bank Transfer,Free Shipping,No,No,19,PayPal,Annually
+448,45,Female,Sweater,Clothing,99,M,Pink,Winter,4.3,No,Cash,Express,No,No,21,Credit Card,Weekly
+449,37,Female,Shorts,Clothing,35,L,Purple,Fall,4.3,No,Credit Card,Free Shipping,No,No,15,Venmo,Weekly
+450,18,Female,Belt,Accessories,40,M,Lavender,Winter,4.6,No,Debit Card,Free Shipping,No,No,9,Venmo,Annually
+451,55,Female,Blouse,Clothing,25,M,Peach,Spring,2.6,No,Venmo,Express,No,No,7,Bank Transfer,Bi-Weekly
+452,52,Female,T-shirt,Clothing,64,L,Orange,Fall,3.1,No,Cash,2-Day Shipping,No,No,47,Bank Transfer,Quarterly
+453,49,Female,Belt,Accessories,90,M,Red,Fall,3.1,No,Venmo,Store Pickup,No,No,17,PayPal,Monthly
+454,56,Female,Socks,Clothing,88,L,Red,Fall,3.1,No,Bank Transfer,Next Day Air,No,No,46,Venmo,Fortnightly
+455,27,Female,Belt,Accessories,55,M,Gold,Winter,4.4,No,Venmo,Standard,No,No,32,Cash,Quarterly
+456,22,Female,Handbag,Accessories,90,M,Brown,Fall,4.3,No,PayPal,Free Shipping,No,No,34,Cash,Annually
+457,18,Female,Shirt,Clothing,50,M,Black,Winter,3.1,No,Cash,2-Day Shipping,No,No,18,Cash,Monthly
+458,21,Female,Belt,Accessories,34,L,Red,Fall,3.1,No,Bank Transfer,Store Pickup,No,No,5,Debit Card,Fortnightly
+459,30,Female,Jewelry,Accessories,77,M,Gray,Winter,4.9,No,PayPal,2-Day Shipping,No,No,44,Credit Card,Monthly
+460,62,Female,Hat,Accessories,89,L,Pink,Winter,2.9,No,PayPal,Store Pickup,No,No,4,Bank Transfer,Quarterly
+461,28,Female,Backpack,Accessories,87,XL,Turquoise,Fall,3.8,No,Debit Card,Next Day Air,No,No,37,Cash,Fortnightly
+462,66,Female,Dress,Clothing,77,S,Charcoal,Winter,4.2,No,Cash,2-Day Shipping,No,No,43,Cash,Monthly
+463,66,Female,Shoes,Footwear,85,L,Blue,Winter,3.9,No,Credit Card,Standard,No,No,28,Bank Transfer,Quarterly
+464,49,Female,Pants,Clothing,66,XL,Turquoise,Summer,2.8,No,Bank Transfer,Express,No,No,36,Cash,Monthly
+465,40,Female,Dress,Clothing,32,L,Silver,Winter,2.6,No,Cash,Standard,No,No,16,Credit Card,Annually
+466,49,Female,Jacket,Outerwear,92,M,Lavender,Spring,3,No,PayPal,Store Pickup,No,No,38,Bank Transfer,Every 3 Months
+467,19,Female,Shirt,Clothing,80,M,Gold,Winter,2.7,No,Debit Card,Next Day Air,No,No,37,Bank Transfer,Fortnightly
+468,24,Female,Dress,Clothing,78,M,Blue,Fall,2.8,No,Venmo,2-Day Shipping,No,No,9,Cash,Bi-Weekly
+469,31,Female,Jeans,Clothing,24,M,Orange,Spring,2.9,No,Bank Transfer,2-Day Shipping,No,No,14,PayPal,Fortnightly
+470,35,Female,T-shirt,Clothing,59,M,White,Fall,3.8,No,Venmo,Free Shipping,No,No,3,Venmo,Weekly
+471,65,Female,Sunglasses,Accessories,41,XL,Charcoal,Spring,4.4,No,Debit Card,Express,No,No,10,Credit Card,Fortnightly
+472,68,Female,Jewelry,Accessories,26,M,Maroon,Spring,3.1,No,Credit Card,Express,No,No,26,Bank Transfer,Bi-Weekly
+473,57,Female,Socks,Clothing,52,M,Olive,Fall,3.7,No,Venmo,Standard,No,No,30,Debit Card,Bi-Weekly
+474,69,Female,Skirt,Clothing,46,L,Teal,Summer,4.9,No,Cash,Next Day Air,No,No,32,PayPal,Fortnightly
+475,45,Female,Pants,Clothing,52,L,Orange,Winter,3.8,No,PayPal,Store Pickup,No,No,35,PayPal,Monthly
+476,35,Female,Socks,Clothing,42,M,Maroon,Fall,3.4,No,Debit Card,Store Pickup,No,No,26,Debit Card,Every 3 Months
+477,36,Female,Sandals,Footwear,37,XL,Turquoise,Spring,4.6,No,Cash,2-Day Shipping,No,No,39,Credit Card,Monthly
+478,55,Female,Belt,Accessories,52,L,Beige,Fall,3.2,No,Credit Card,Standard,No,No,31,Credit Card,Monthly
+479,66,Female,Sandals,Footwear,34,L,Beige,Spring,2.7,No,Cash,Free Shipping,No,No,28,Credit Card,Annually
+480,57,Female,Shorts,Clothing,88,M,Olive,Spring,4.3,No,Debit Card,Free Shipping,No,No,12,Debit Card,Bi-Weekly
+481,18,Female,Handbag,Accessories,88,L,Turquoise,Fall,3.8,No,Cash,Standard,No,No,46,PayPal,Weekly
+482,31,Female,Jacket,Outerwear,51,M,Charcoal,Summer,4.4,No,Cash,Free Shipping,No,No,27,PayPal,Every 3 Months
+483,50,Female,Sunglasses,Accessories,97,L,Green,Fall,3.6,No,PayPal,Free Shipping,No,No,4,Credit Card,Annually
+484,50,Female,Sneakers,Footwear,56,M,Green,Winter,3.5,No,Debit Card,Standard,No,No,14,Cash,Every 3 Months
+485,61,Female,Sweater,Clothing,53,L,Green,Spring,4.2,No,Credit Card,2-Day Shipping,No,No,30,Venmo,Quarterly
+486,52,Female,Skirt,Clothing,71,L,Gold,Fall,4.7,No,Credit Card,Express,No,No,6,PayPal,Annually
+487,38,Female,Jewelry,Accessories,93,S,Cyan,Winter,4.8,No,PayPal,Store Pickup,No,No,43,Venmo,Annually
+488,67,Female,Blouse,Clothing,72,L,Indigo,Winter,3.2,No,Credit Card,Free Shipping,No,No,28,Debit Card,Weekly
+489,42,Female,Blouse,Clothing,59,M,Lavender,Winter,3.5,No,Venmo,Standard,No,No,39,Bank Transfer,Monthly
+490,25,Female,Boots,Footwear,87,M,Beige,Summer,4.2,No,PayPal,Store Pickup,No,No,30,PayPal,Bi-Weekly
+491,41,Female,Jeans,Clothing,78,S,Purple,Fall,3.4,No,Bank Transfer,Free Shipping,No,No,5,Credit Card,Fortnightly
+492,62,Female,Hoodie,Clothing,68,XL,Maroon,Winter,4.7,No,Bank Transfer,Store Pickup,No,No,42,Credit Card,Every 3 Months
+493,19,Female,Sweater,Clothing,76,S,Maroon,Fall,3,No,Credit Card,Free Shipping,No,No,20,Cash,Fortnightly
+494,63,Female,Gloves,Accessories,99,L,Teal,Winter,4,No,PayPal,Express,No,No,35,Credit Card,Fortnightly
+495,43,Female,Sneakers,Footwear,52,L,Gold,Summer,4.6,No,Debit Card,Standard,No,No,10,Credit Card,Bi-Weekly
+496,68,Female,Sunglasses,Accessories,58,S,Red,Spring,4.9,No,Debit Card,Next Day Air,No,No,36,Credit Card,Quarterly
+497,24,Female,Belt,Accessories,59,L,Maroon,Winter,2.8,No,Debit Card,Express,No,No,21,Debit Card,Fortnightly
+498,27,Female,Sweater,Clothing,71,M,Teal,Spring,3.2,No,Bank Transfer,Free Shipping,No,No,29,Credit Card,Every 3 Months
+499,61,Female,Gloves,Accessories,94,L,Peach,Winter,2.8,No,Cash,Free Shipping,No,No,39,Debit Card,Weekly
+500,59,Female,Handbag,Accessories,40,XL,Pink,Winter,4.2,No,PayPal,Express,No,No,16,PayPal,Monthly
+501,67,Female,Socks,Clothing,24,L,Black,Spring,4.8,No,PayPal,Free Shipping,No,No,32,Credit Card,Monthly
+502,46,Female,Pants,Clothing,38,S,Indigo,Fall,2.8,No,Credit Card,2-Day Shipping,No,No,34,Cash,Monthly
+503,65,Female,Scarf,Accessories,37,L,Green,Fall,4.5,No,Bank Transfer,Standard,No,No,38,Venmo,Annually
+504,63,Female,Coat,Outerwear,29,L,Teal,Spring,4.1,No,Cash,Express,No,No,14,Venmo,Annually
+505,57,Female,Jacket,Outerwear,92,XL,Lavender,Fall,4.3,No,Credit Card,Free Shipping,No,No,23,Debit Card,Bi-Weekly
+506,40,Female,Hoodie,Clothing,24,XL,Magenta,Fall,4.4,No,Debit Card,2-Day Shipping,No,No,50,Bank Transfer,Every 3 Months
+507,36,Female,Boots,Footwear,52,M,Brown,Winter,3,No,Debit Card,Free Shipping,No,No,49,PayPal,Monthly
+508,67,Female,Socks,Clothing,29,XL,Beige,Summer,2.7,No,Debit Card,Next Day Air,No,No,14,PayPal,Annually
+509,61,Female,Jewelry,Accessories,30,L,Indigo,Winter,3.3,No,PayPal,2-Day Shipping,No,No,42,PayPal,Weekly
+510,64,Female,Shoes,Footwear,31,L,Peach,Fall,4.3,No,Bank Transfer,Standard,No,No,39,Debit Card,Annually
+511,30,Female,Socks,Clothing,67,M,Magenta,Summer,2.9,No,Debit Card,Express,No,No,43,Venmo,Bi-Weekly
+512,53,Female,Pants,Clothing,65,L,Turquoise,Winter,4.9,No,Credit Card,Standard,No,No,12,Cash,Monthly
+513,27,Female,Sneakers,Footwear,22,M,Indigo,Winter,3.6,No,Bank Transfer,2-Day Shipping,No,No,21,Debit Card,Weekly
+514,27,Female,Sunglasses,Accessories,56,M,Brown,Winter,3.3,No,Venmo,Standard,No,No,33,Credit Card,Monthly
+515,53,Female,Skirt,Clothing,78,M,Yellow,Spring,3.1,No,Bank Transfer,Free Shipping,No,No,6,Debit Card,Annually
+516,34,Female,Coat,Outerwear,90,M,Magenta,Summer,2.7,No,Bank Transfer,Free Shipping,No,No,10,PayPal,Every 3 Months
+517,39,Female,Hoodie,Clothing,85,S,Olive,Winter,3.4,No,Debit Card,Next Day Air,No,No,18,Cash,Weekly
+518,44,Female,Sunglasses,Accessories,58,M,Silver,Fall,3.4,No,PayPal,Express,No,No,46,Venmo,Weekly
+519,37,Female,Skirt,Clothing,34,M,Teal,Fall,3.9,No,Venmo,Express,No,No,49,PayPal,Monthly
+520,57,Female,Coat,Outerwear,40,L,White,Summer,3.5,No,Bank Transfer,2-Day Shipping,No,No,39,Credit Card,Weekly
+521,38,Female,Handbag,Accessories,29,M,Blue,Fall,4.1,No,PayPal,Free Shipping,No,No,16,Cash,Monthly
+522,21,Female,T-shirt,Clothing,76,M,Yellow,Winter,3.2,No,Credit Card,Standard,No,No,28,Cash,Annually
+523,45,Female,Sunglasses,Accessories,84,S,Maroon,Fall,4.6,No,Debit Card,Store Pickup,No,No,22,PayPal,Quarterly
+524,68,Female,Shirt,Clothing,65,S,Gray,Spring,3.9,No,PayPal,Standard,No,No,36,Venmo,Bi-Weekly
+525,37,Female,Hoodie,Clothing,80,L,Indigo,Winter,2.7,No,Cash,Free Shipping,No,No,18,PayPal,Monthly
+526,53,Female,Blouse,Clothing,98,M,Pink,Fall,3,No,Credit Card,Store Pickup,No,No,31,Credit Card,Weekly
+527,57,Female,Sneakers,Footwear,71,XL,Beige,Spring,3.3,No,Debit Card,Next Day Air,No,No,38,Bank Transfer,Fortnightly
+528,28,Female,Scarf,Accessories,69,XL,White,Fall,2.7,No,Credit Card,Free Shipping,No,No,42,Debit Card,Quarterly
+529,37,Female,Jewelry,Accessories,95,M,Yellow,Spring,4.6,No,Credit Card,2-Day Shipping,No,No,27,PayPal,Annually
+530,54,Female,Pants,Clothing,67,M,Teal,Fall,2.7,No,Debit Card,Express,No,No,24,Cash,Monthly
+531,49,Female,Sneakers,Footwear,49,M,Olive,Summer,2.5,No,Venmo,Next Day Air,No,No,38,Debit Card,Annually
+532,62,Female,Shoes,Footwear,97,M,Maroon,Winter,4.4,No,PayPal,Free Shipping,No,No,9,Credit Card,Annually
+533,45,Female,T-shirt,Clothing,34,M,White,Spring,4,No,PayPal,Next Day Air,No,No,19,Bank Transfer,Monthly
+534,45,Female,Belt,Accessories,74,M,Lavender,Fall,3.8,No,Credit Card,Express,No,No,11,Debit Card,Bi-Weekly
+535,49,Female,Jewelry,Accessories,96,M,Black,Winter,2.5,No,Bank Transfer,2-Day Shipping,No,No,16,Debit Card,Quarterly
+536,27,Female,Belt,Accessories,68,M,Green,Summer,4,No,Venmo,Free Shipping,No,No,18,Venmo,Monthly
+537,63,Female,Belt,Accessories,84,L,Olive,Fall,4.1,No,Venmo,Next Day Air,No,No,8,Cash,Monthly
+538,61,Female,T-shirt,Clothing,57,M,Gray,Summer,2.8,No,Bank Transfer,Express,No,No,4,Cash,Weekly
+539,25,Female,Sneakers,Footwear,84,XL,Teal,Fall,3.4,No,PayPal,2-Day Shipping,No,No,37,Cash,Quarterly
+540,33,Female,Sunglasses,Accessories,32,M,Charcoal,Fall,2.7,No,Credit Card,2-Day Shipping,No,No,30,Cash,Monthly
+541,56,Female,Sandals,Footwear,37,M,Violet,Fall,3.8,No,Credit Card,2-Day Shipping,No,No,37,Bank Transfer,Monthly
+542,50,Female,Handbag,Accessories,58,M,Lavender,Summer,4.4,No,Credit Card,Store Pickup,No,No,30,PayPal,Quarterly
+543,45,Female,Socks,Clothing,74,S,Beige,Fall,2.8,No,Cash,Express,No,No,17,Venmo,Weekly
+544,45,Female,Hoodie,Clothing,99,L,Black,Summer,5,No,Venmo,Store Pickup,No,No,11,Bank Transfer,Every 3 Months
+545,65,Female,Sweater,Clothing,81,M,Black,Fall,4.7,No,Bank Transfer,Express,No,No,42,Credit Card,Annually
+546,63,Female,Pants,Clothing,76,M,Purple,Fall,3.2,No,PayPal,Next Day Air,No,No,20,Cash,Weekly
+547,70,Female,Sneakers,Footwear,98,M,Magenta,Summer,2.9,No,Venmo,Store Pickup,No,No,37,Cash,Monthly
+548,53,Female,Gloves,Accessories,91,M,Teal,Summer,3.7,No,Venmo,Express,No,No,12,PayPal,Fortnightly
+549,22,Female,T-shirt,Clothing,79,S,Teal,Summer,4.2,No,Venmo,Free Shipping,No,No,41,Bank Transfer,Quarterly
+550,26,Female,Backpack,Accessories,83,M,Pink,Summer,3.4,No,Credit Card,Express,No,No,32,Credit Card,Quarterly
+551,23,Female,Coat,Outerwear,90,M,Teal,Spring,2.9,No,Cash,2-Day Shipping,No,No,15,Venmo,Weekly
+552,25,Female,Coat,Outerwear,20,M,Gold,Winter,3.7,No,Debit Card,Standard,No,No,39,Venmo,Quarterly
+553,69,Female,Sandals,Footwear,21,L,Brown,Spring,2.7,No,Bank Transfer,Store Pickup,No,No,48,Credit Card,Fortnightly
+554,36,Female,Backpack,Accessories,60,M,Brown,Fall,3.2,No,Debit Card,2-Day Shipping,No,No,8,Venmo,Fortnightly
+555,21,Female,Sweater,Clothing,31,S,Magenta,Winter,4.9,No,Venmo,Store Pickup,No,No,11,Bank Transfer,Every 3 Months
+556,57,Female,Shorts,Clothing,40,M,Black,Fall,2.8,No,Cash,Next Day Air,No,No,36,Bank Transfer,Monthly
+557,60,Female,Sunglasses,Accessories,26,L,Teal,Winter,4.7,No,Cash,Free Shipping,No,No,50,Venmo,Every 3 Months
+558,44,Female,Shirt,Clothing,98,M,Brown,Fall,3.3,No,PayPal,Express,No,No,39,Venmo,Every 3 Months
+559,31,Female,Shoes,Footwear,51,M,Magenta,Spring,4.3,No,Debit Card,Express,No,No,11,Credit Card,Bi-Weekly
+560,57,Female,Hat,Accessories,95,XL,Indigo,Fall,3.7,No,PayPal,2-Day Shipping,No,No,5,Debit Card,Every 3 Months
+561,39,Female,Scarf,Accessories,36,M,Violet,Summer,4.5,No,Bank Transfer,2-Day Shipping,No,No,7,Credit Card,Annually
+562,48,Female,Belt,Accessories,52,L,Cyan,Winter,3.4,No,Bank Transfer,Store Pickup,No,No,50,Debit Card,Weekly
+563,42,Female,T-shirt,Clothing,35,M,Violet,Spring,2.7,No,Cash,Standard,No,No,21,Cash,Every 3 Months
+564,56,Female,Shorts,Clothing,68,S,Black,Fall,4.4,No,PayPal,Express,No,No,31,Debit Card,Fortnightly
+565,28,Female,Pants,Clothing,50,S,Charcoal,Winter,4,No,PayPal,Express,No,No,39,Cash,Bi-Weekly
+566,40,Female,Sunglasses,Accessories,100,M,White,Winter,3.2,No,Credit Card,Express,No,No,28,Credit Card,Fortnightly
+567,49,Female,Coat,Outerwear,74,S,Gray,Winter,4.2,No,Bank Transfer,Next Day Air,No,No,33,Bank Transfer,Weekly
+568,37,Female,Hoodie,Clothing,45,L,Pink,Winter,3,No,Debit Card,Store Pickup,No,No,42,Credit Card,Quarterly
+569,22,Female,Dress,Clothing,97,M,Cyan,Fall,2.8,No,Cash,Free Shipping,No,No,5,Bank Transfer,Every 3 Months
+570,27,Female,Blouse,Clothing,60,M,Blue,Winter,4.9,No,Venmo,Express,No,No,25,Cash,Monthly
+571,59,Female,Socks,Clothing,25,M,Indigo,Winter,4.7,No,Cash,Express,No,No,48,PayPal,Annually
+572,35,Female,Socks,Clothing,55,XL,Magenta,Spring,4.4,No,Debit Card,Standard,No,No,30,Credit Card,Weekly
+573,58,Female,Shoes,Footwear,99,M,Lavender,Winter,3.1,No,Bank Transfer,Next Day Air,No,No,34,PayPal,Quarterly
+574,58,Female,Belt,Accessories,45,S,Orange,Summer,2.6,No,Credit Card,Free Shipping,No,No,34,PayPal,Every 3 Months
+575,46,Female,Sweater,Clothing,20,M,Cyan,Spring,3.9,No,Credit Card,Store Pickup,No,No,14,Cash,Fortnightly
+576,43,Female,Pants,Clothing,88,XL,Green,Summer,2.6,No,Venmo,2-Day Shipping,No,No,2,Debit Card,Weekly
+577,39,Female,Scarf,Accessories,99,M,White,Summer,4,No,Credit Card,Store Pickup,No,No,41,PayPal,Every 3 Months
+578,59,Female,Skirt,Clothing,86,M,Blue,Spring,4.9,No,Cash,Store Pickup,No,No,3,Credit Card,Monthly
+579,59,Female,Dress,Clothing,70,M,Black,Summer,3.3,No,Debit Card,2-Day Shipping,No,No,18,Bank Transfer,Weekly
+580,59,Female,Hat,Accessories,50,S,Red,Fall,3,No,Credit Card,Express,No,No,1,Debit Card,Fortnightly
+581,45,Female,Handbag,Accessories,57,L,Red,Winter,2.7,No,Credit Card,Next Day Air,No,No,5,PayPal,Monthly
+582,27,Female,Pants,Clothing,69,L,Gold,Winter,3.1,No,Debit Card,Free Shipping,No,No,41,Bank Transfer,Annually
+583,24,Female,T-shirt,Clothing,94,M,Red,Fall,4.8,No,Bank Transfer,Next Day Air,No,No,5,Credit Card,Monthly
+584,47,Female,Jacket,Outerwear,24,L,Purple,Spring,2.9,No,Credit Card,Express,No,No,10,Debit Card,Every 3 Months
+585,70,Female,Scarf,Accessories,79,L,White,Spring,4.5,No,Debit Card,2-Day Shipping,No,No,20,Venmo,Annually
+586,58,Female,Hat,Accessories,31,XL,Magenta,Fall,4.6,No,PayPal,Free Shipping,No,No,11,Cash,Weekly
+587,45,Female,Jacket,Outerwear,67,L,Pink,Winter,5,No,Venmo,Express,No,No,4,Venmo,Fortnightly
+588,24,Female,Skirt,Clothing,63,L,Black,Spring,4.3,No,PayPal,2-Day Shipping,No,No,38,Credit Card,Weekly
+589,67,Female,Handbag,Accessories,61,XL,White,Spring,4.9,No,Debit Card,Next Day Air,No,No,19,Credit Card,Bi-Weekly
+590,31,Female,Backpack,Accessories,50,M,Maroon,Summer,4,No,Venmo,2-Day Shipping,No,No,16,Venmo,Every 3 Months
+591,52,Female,Coat,Outerwear,82,L,Black,Spring,3.1,No,Bank Transfer,Free Shipping,No,No,2,PayPal,Monthly
+592,29,Female,Belt,Accessories,51,L,Olive,Fall,2.6,No,Bank Transfer,2-Day Shipping,No,No,11,Cash,Monthly
+593,62,Female,Handbag,Accessories,23,L,Gray,Spring,4.9,No,Debit Card,Standard,No,No,18,Bank Transfer,Fortnightly
+594,19,Female,Coat,Outerwear,91,M,Gold,Spring,3.5,No,Bank Transfer,2-Day Shipping,No,No,47,Credit Card,Fortnightly
+595,62,Female,Sweater,Clothing,60,S,Magenta,Spring,4.5,No,PayPal,Store Pickup,No,No,15,Bank Transfer,Bi-Weekly
+596,70,Female,Blouse,Clothing,34,S,Lavender,Summer,2.8,No,PayPal,Next Day Air,No,No,15,Cash,Weekly
+597,20,Female,Blouse,Clothing,23,M,Green,Spring,4.2,No,PayPal,Next Day Air,No,No,47,Venmo,Quarterly
+598,67,Female,Belt,Accessories,82,M,Violet,Fall,4.1,No,Credit Card,Free Shipping,No,No,47,PayPal,Monthly
+599,65,Female,Jacket,Outerwear,73,M,Brown,Fall,3.5,No,PayPal,Express,No,No,6,Bank Transfer,Every 3 Months
+600,45,Female,Shorts,Clothing,32,L,Teal,Spring,4,No,Bank Transfer,2-Day Shipping,No,No,18,Venmo,Monthly
+601,26,Female,Hat,Accessories,80,M,Charcoal,Spring,4,No,Debit Card,Express,No,No,40,Bank Transfer,Bi-Weekly
+602,36,Female,Pants,Clothing,58,XL,Charcoal,Summer,2.5,No,PayPal,Free Shipping,No,No,31,Credit Card,Fortnightly
+603,36,Female,Blouse,Clothing,82,XL,Beige,Winter,4.2,No,Venmo,Standard,No,No,31,Venmo,Bi-Weekly
+604,20,Female,Belt,Accessories,60,S,Turquoise,Summer,3.4,No,PayPal,Next Day Air,No,No,4,Credit Card,Fortnightly
+605,30,Female,Handbag,Accessories,79,XL,Orange,Fall,4.8,No,Debit Card,Next Day Air,No,No,36,Bank Transfer,Every 3 Months
+606,34,Female,Hoodie,Clothing,41,L,Cyan,Summer,4.9,No,Bank Transfer,Standard,No,No,31,PayPal,Bi-Weekly
+607,63,Female,Jacket,Outerwear,39,L,Orange,Summer,3.6,No,Cash,Store Pickup,No,No,6,Venmo,Fortnightly
+608,18,Female,Scarf,Accessories,36,S,Green,Winter,4,No,Credit Card,Store Pickup,No,No,1,Cash,Monthly
+609,55,Female,Jeans,Clothing,70,M,Pink,Fall,2.6,No,Venmo,Express,No,No,29,Cash,Monthly
+610,48,Female,Handbag,Accessories,47,M,Blue,Summer,3.1,No,Credit Card,Store Pickup,No,No,19,PayPal,Monthly
+611,45,Female,Jacket,Outerwear,27,M,Pink,Winter,3.6,No,Debit Card,Free Shipping,No,No,12,PayPal,Fortnightly
+612,29,Female,Hat,Accessories,52,L,Blue,Summer,4,No,PayPal,Express,No,No,18,Bank Transfer,Annually
+613,55,Female,Sneakers,Footwear,75,L,Black,Summer,3.9,No,Venmo,Next Day Air,No,No,45,Cash,Quarterly
+614,55,Female,Hat,Accessories,30,XL,Black,Fall,3.9,No,Cash,Express,No,No,45,Credit Card,Monthly
+615,55,Female,Socks,Clothing,94,M,Violet,Spring,3.3,No,PayPal,Standard,No,No,8,Credit Card,Quarterly
+616,48,Female,Scarf,Accessories,68,S,Gold,Summer,2.9,No,Credit Card,Standard,No,No,4,PayPal,Every 3 Months
+617,42,Female,Socks,Clothing,45,M,Olive,Summer,3.1,No,Cash,Free Shipping,No,No,5,Debit Card,Fortnightly
+618,21,Female,Hat,Accessories,67,XL,Pink,Summer,4.7,No,Debit Card,Standard,No,No,30,Cash,Quarterly
+619,45,Female,Jacket,Outerwear,46,M,Olive,Summer,3.9,No,Venmo,Free Shipping,No,No,15,PayPal,Monthly
+620,23,Female,Shorts,Clothing,31,M,Indigo,Summer,4.3,No,Cash,Next Day Air,No,No,17,Credit Card,Every 3 Months
+621,66,Female,Blouse,Clothing,44,XL,Silver,Fall,4.2,No,Cash,2-Day Shipping,No,No,45,Cash,Every 3 Months
+622,32,Female,Coat,Outerwear,100,S,Charcoal,Winter,4.3,No,Bank Transfer,Next Day Air,No,No,3,Venmo,Annually
+623,52,Female,Sweater,Clothing,92,XL,Orange,Winter,4.6,No,Credit Card,Next Day Air,No,No,43,PayPal,Weekly
+624,54,Female,Handbag,Accessories,78,M,Yellow,Winter,3.8,No,Venmo,Free Shipping,No,No,4,Credit Card,Monthly
+625,37,Female,T-shirt,Clothing,32,S,Red,Fall,3.3,No,Venmo,Standard,No,No,41,Venmo,Weekly
+626,29,Female,Sandals,Footwear,97,M,Maroon,Fall,3.7,No,Debit Card,2-Day Shipping,No,No,16,Venmo,Monthly
+627,47,Female,Gloves,Accessories,95,M,Magenta,Summer,4.3,No,Cash,Standard,No,No,10,Debit Card,Annually
+628,47,Female,Shorts,Clothing,64,M,Black,Spring,4.1,No,Bank Transfer,Express,No,No,2,Debit Card,Quarterly
+629,42,Female,Sandals,Footwear,35,M,Violet,Spring,3.2,No,Venmo,Free Shipping,No,No,11,Cash,Bi-Weekly
+630,34,Female,Backpack,Accessories,54,M,Gray,Winter,3.8,No,Debit Card,Express,No,No,1,Debit Card,Bi-Weekly
+631,38,Female,Sneakers,Footwear,96,M,Black,Spring,3.2,No,PayPal,2-Day Shipping,No,No,41,Bank Transfer,Quarterly
+632,55,Female,Sunglasses,Accessories,58,M,Pink,Summer,3.5,No,Debit Card,Free Shipping,No,No,39,PayPal,Quarterly
+633,27,Female,T-shirt,Clothing,23,M,Silver,Summer,3.1,No,PayPal,2-Day Shipping,No,No,1,PayPal,Bi-Weekly
+634,55,Female,Jeans,Clothing,35,M,Violet,Spring,4.2,No,Debit Card,Express,No,No,3,PayPal,Monthly
+635,66,Female,Shirt,Clothing,23,M,Beige,Summer,3.4,No,Bank Transfer,Free Shipping,No,No,21,Credit Card,Annually
+636,44,Female,Hat,Accessories,94,XL,Cyan,Winter,3.5,No,Credit Card,Express,No,No,48,Bank Transfer,Quarterly
+637,39,Female,Blouse,Clothing,45,M,Brown,Fall,4,No,Venmo,Free Shipping,No,No,24,Debit Card,Annually
+638,23,Female,Jacket,Outerwear,23,L,Blue,Winter,4.4,No,Bank Transfer,2-Day Shipping,No,No,45,Bank Transfer,Bi-Weekly
+639,29,Female,Skirt,Clothing,94,L,White,Winter,2.9,No,Venmo,2-Day Shipping,No,No,46,Credit Card,Monthly
+640,20,Female,Gloves,Accessories,99,M,Cyan,Fall,3.6,No,Debit Card,Store Pickup,No,No,35,Cash,Fortnightly
+641,42,Female,T-shirt,Clothing,36,XL,Maroon,Fall,4.4,No,Credit Card,Free Shipping,No,No,47,Credit Card,Fortnightly
+642,55,Female,Jacket,Outerwear,50,XL,Olive,Summer,4.5,No,Venmo,Standard,No,No,35,Credit Card,Monthly
+643,66,Female,Jacket,Outerwear,81,M,Violet,Spring,3.8,No,Credit Card,Free Shipping,No,No,45,Credit Card,Weekly
+644,24,Female,Shorts,Clothing,31,XL,Green,Winter,3.6,No,Bank Transfer,2-Day Shipping,No,No,6,Cash,Bi-Weekly
+645,62,Female,Hat,Accessories,48,XL,Magenta,Fall,4.3,No,Debit Card,Free Shipping,No,No,20,Cash,Annually
+646,28,Female,Handbag,Accessories,91,M,Turquoise,Summer,4,No,Cash,2-Day Shipping,No,No,3,Venmo,Bi-Weekly
+647,30,Female,Jeans,Clothing,99,M,Black,Summer,3.4,No,PayPal,Express,No,No,30,Venmo,Quarterly
+648,22,Female,Shoes,Footwear,70,XL,Cyan,Summer,4.4,No,Credit Card,Standard,No,No,28,PayPal,Bi-Weekly
+649,28,Female,T-shirt,Clothing,74,L,Gray,Winter,2.8,No,PayPal,Standard,No,No,15,Cash,Every 3 Months
+650,35,Female,Jewelry,Accessories,79,M,Red,Fall,2.8,No,Cash,Store Pickup,No,No,29,PayPal,Quarterly
+651,45,Female,Handbag,Accessories,33,S,Olive,Fall,4.9,No,PayPal,2-Day Shipping,No,No,15,Cash,Bi-Weekly
+652,43,Female,Shirt,Clothing,49,L,Cyan,Spring,4.2,No,Cash,2-Day Shipping,No,No,18,Bank Transfer,Fortnightly
+653,55,Female,Belt,Accessories,96,M,Teal,Summer,2.9,No,Credit Card,Next Day Air,No,No,7,Bank Transfer,Bi-Weekly
+654,31,Female,Dress,Clothing,66,L,Teal,Fall,4.6,No,Debit Card,Free Shipping,No,No,19,Credit Card,Every 3 Months
+655,42,Female,Skirt,Clothing,45,M,Orange,Fall,2.8,No,Cash,Next Day Air,No,No,15,PayPal,Weekly
+656,40,Female,Blouse,Clothing,28,M,Peach,Spring,2.6,No,Debit Card,Store Pickup,No,No,3,Bank Transfer,Bi-Weekly
+657,39,Female,Jeans,Clothing,48,M,Silver,Summer,3.5,No,Credit Card,Store Pickup,No,No,13,PayPal,Bi-Weekly
+658,41,Female,Hoodie,Clothing,67,M,Pink,Winter,3.5,No,Venmo,Free Shipping,No,No,37,Credit Card,Monthly
+659,56,Female,T-shirt,Clothing,59,M,Magenta,Fall,3.4,No,Debit Card,2-Day Shipping,No,No,26,Cash,Annually
+660,43,Female,Sunglasses,Accessories,74,L,Red,Fall,3.9,No,Credit Card,Next Day Air,No,No,29,Debit Card,Monthly
+661,22,Female,Jacket,Outerwear,81,M,Maroon,Spring,3.3,No,Venmo,2-Day Shipping,No,No,47,Cash,Every 3 Months
+662,47,Female,Shoes,Footwear,26,M,Silver,Spring,4.1,No,Credit Card,Free Shipping,No,No,47,Credit Card,Bi-Weekly
+663,50,Female,Handbag,Accessories,61,M,Gray,Summer,3,No,Credit Card,Next Day Air,No,No,48,Venmo,Fortnightly
+664,58,Female,Sweater,Clothing,23,M,Turquoise,Winter,3,No,PayPal,Next Day Air,No,No,46,Bank Transfer,Bi-Weekly
+665,50,Female,Scarf,Accessories,33,M,Peach,Fall,3.2,No,Cash,Standard,No,No,7,Credit Card,Monthly
+666,43,Female,Skirt,Clothing,58,L,Teal,Fall,3.9,No,Bank Transfer,Express,No,No,45,Credit Card,Every 3 Months
+667,38,Female,Gloves,Accessories,65,M,Red,Spring,3.6,No,Venmo,2-Day Shipping,No,No,47,Debit Card,Quarterly
+668,44,Female,T-shirt,Clothing,48,M,Blue,Summer,3.1,No,Credit Card,Store Pickup,No,No,6,Venmo,Fortnightly
+669,30,Female,Sandals,Footwear,25,M,Blue,Spring,4.8,No,Cash,Express,No,No,29,Bank Transfer,Every 3 Months
+670,47,Female,Sweater,Clothing,51,M,Indigo,Winter,3.8,No,Debit Card,2-Day Shipping,No,No,42,Cash,Monthly
+671,30,Female,Belt,Accessories,31,M,Charcoal,Summer,2.8,No,Venmo,Store Pickup,No,No,46,Cash,Fortnightly
+672,49,Female,Hoodie,Clothing,99,S,Turquoise,Winter,4,No,PayPal,Next Day Air,No,No,28,PayPal,Annually
+673,56,Female,Socks,Clothing,25,M,Maroon,Winter,4.6,No,Credit Card,Free Shipping,No,No,14,Credit Card,Every 3 Months
+674,70,Female,Sandals,Footwear,52,M,Purple,Spring,3.5,No,Debit Card,Store Pickup,No,No,12,Debit Card,Every 3 Months
+675,22,Female,Blouse,Clothing,47,S,Lavender,Spring,3.7,No,Debit Card,2-Day Shipping,No,No,41,Debit Card,Annually
+676,51,Female,Boots,Footwear,98,XL,Yellow,Fall,4.9,No,Debit Card,Express,No,No,8,Credit Card,Annually
+677,22,Female,Hat,Accessories,46,M,Green,Winter,4.1,No,Credit Card,Store Pickup,No,No,24,Cash,Quarterly
+678,37,Female,Shirt,Clothing,32,M,Yellow,Winter,4.6,No,Bank Transfer,Next Day Air,No,No,18,PayPal,Fortnightly
+679,49,Female,Shorts,Clothing,75,L,Gold,Fall,4.5,No,PayPal,Next Day Air,No,No,6,Cash,Quarterly
+680,61,Female,Handbag,Accessories,51,L,Turquoise,Summer,5,No,Debit Card,Store Pickup,No,No,40,Cash,Weekly
+681,41,Female,Dress,Clothing,52,L,Blue,Summer,3.8,No,PayPal,Standard,No,No,6,PayPal,Every 3 Months
+682,57,Female,Hat,Accessories,66,L,Turquoise,Winter,4.7,No,Bank Transfer,Standard,No,No,27,Credit Card,Quarterly
+683,34,Female,Sweater,Clothing,35,M,Maroon,Spring,2.8,No,Bank Transfer,Express,No,No,2,Bank Transfer,Weekly
+684,27,Female,Coat,Outerwear,43,M,Pink,Fall,2.6,No,Credit Card,Next Day Air,No,No,39,Venmo,Bi-Weekly
+685,39,Female,Hoodie,Clothing,24,L,Maroon,Summer,3.8,No,Credit Card,Free Shipping,No,No,9,Venmo,Quarterly
+686,62,Female,Jewelry,Accessories,83,M,Olive,Winter,2.8,No,PayPal,Standard,No,No,16,Credit Card,Every 3 Months
+687,34,Female,T-shirt,Clothing,62,M,Lavender,Fall,2.6,No,Debit Card,2-Day Shipping,No,No,36,Cash,Quarterly
+688,53,Female,Pants,Clothing,78,S,Pink,Spring,3.4,No,Venmo,2-Day Shipping,No,No,2,Credit Card,Bi-Weekly
+689,35,Female,Sweater,Clothing,61,M,Cyan,Spring,4.5,No,Venmo,Store Pickup,No,No,21,Credit Card,Weekly
+690,38,Female,Pants,Clothing,57,L,Maroon,Fall,3.8,No,Credit Card,Free Shipping,No,No,39,Venmo,Annually
+691,32,Female,Socks,Clothing,70,S,Red,Summer,3,No,Credit Card,Next Day Air,No,No,38,PayPal,Annually
+692,47,Female,Hoodie,Clothing,57,M,Silver,Fall,3.7,No,Cash,2-Day Shipping,No,No,6,Debit Card,Every 3 Months
+693,53,Female,Scarf,Accessories,74,XL,Blue,Winter,4.4,No,Credit Card,Free Shipping,No,No,6,Venmo,Bi-Weekly
+694,60,Female,Dress,Clothing,90,M,Gold,Fall,3.1,No,PayPal,Next Day Air,No,No,50,Debit Card,Monthly
+695,31,Female,Sandals,Footwear,98,S,Yellow,Spring,4.2,No,Cash,Store Pickup,No,No,9,PayPal,Annually
+696,44,Female,Dress,Clothing,43,M,Silver,Winter,3.1,No,Debit Card,Free Shipping,No,No,15,Debit Card,Every 3 Months
+697,29,Female,Pants,Clothing,37,XL,Black,Winter,5,No,PayPal,Next Day Air,No,No,5,PayPal,Quarterly
+698,19,Female,Blouse,Clothing,38,L,Yellow,Summer,2.7,No,Bank Transfer,Standard,No,No,13,Bank Transfer,Bi-Weekly
+699,54,Female,Jeans,Clothing,60,L,Pink,Winter,3.8,No,Cash,Standard,No,No,44,Cash,Fortnightly
+700,40,Female,Pants,Clothing,55,XL,Yellow,Winter,3.3,No,Debit Card,Standard,No,No,36,Debit Card,Annually
+701,39,Female,Sunglasses,Accessories,51,M,Lavender,Fall,4.8,No,Debit Card,Free Shipping,No,No,18,Venmo,Fortnightly
+702,44,Female,Backpack,Accessories,71,L,Peach,Winter,3.4,No,Venmo,Standard,No,No,39,Credit Card,Weekly
+703,22,Female,Hoodie,Clothing,61,M,Black,Spring,4.4,No,Venmo,2-Day Shipping,No,No,11,PayPal,Every 3 Months
+704,30,Female,Boots,Footwear,65,M,Olive,Summer,3.9,No,Credit Card,Standard,No,No,1,Cash,Bi-Weekly
+705,69,Female,Gloves,Accessories,34,L,Olive,Fall,3.9,No,Cash,2-Day Shipping,No,No,34,Credit Card,Annually
+706,28,Female,Blouse,Clothing,87,M,White,Summer,4.2,No,Venmo,Store Pickup,No,No,47,Bank Transfer,Bi-Weekly
+707,57,Female,Sweater,Clothing,79,M,Red,Spring,4,No,Venmo,Store Pickup,No,No,24,Venmo,Quarterly
+708,46,Female,Dress,Clothing,46,S,Purple,Spring,2.6,No,Bank Transfer,Store Pickup,No,No,20,Cash,Quarterly
+709,48,Female,Socks,Clothing,72,L,Purple,Summer,4.4,No,PayPal,Standard,No,No,11,Bank Transfer,Annually
+710,24,Female,Shirt,Clothing,93,M,Teal,Summer,3.2,No,PayPal,Next Day Air,No,No,3,Credit Card,Every 3 Months
+711,50,Female,Sandals,Footwear,76,L,Teal,Summer,4.3,No,PayPal,Free Shipping,No,No,38,Bank Transfer,Bi-Weekly
+712,29,Female,Shoes,Footwear,56,L,Gray,Winter,4.9,No,Venmo,2-Day Shipping,No,No,45,Cash,Weekly
+713,61,Female,Sandals,Footwear,83,M,Magenta,Fall,3.8,No,Credit Card,Store Pickup,No,No,31,Venmo,Quarterly
+714,34,Female,Gloves,Accessories,90,XL,Black,Winter,2.5,No,Cash,Express,No,No,16,PayPal,Bi-Weekly
+715,27,Female,Boots,Footwear,94,M,Maroon,Spring,4.9,No,Venmo,Next Day Air,No,No,3,Bank Transfer,Quarterly
+716,38,Female,Blouse,Clothing,68,M,Gold,Fall,3,No,Credit Card,2-Day Shipping,No,No,15,Bank Transfer,Annually
+717,25,Female,Sandals,Footwear,53,M,Purple,Spring,3.2,No,PayPal,Store Pickup,No,No,11,Bank Transfer,Every 3 Months
+718,54,Female,Coat,Outerwear,35,M,Blue,Summer,2.9,No,PayPal,2-Day Shipping,No,No,22,Debit Card,Fortnightly
+719,53,Female,Jacket,Outerwear,30,M,Beige,Summer,2.8,No,Cash,Free Shipping,No,No,35,Debit Card,Annually
+720,23,Female,Jewelry,Accessories,26,L,Indigo,Winter,3.1,No,Venmo,Store Pickup,No,No,5,Venmo,Bi-Weekly
+721,19,Female,Hat,Accessories,60,M,Purple,Winter,3.4,No,Debit Card,Express,No,No,35,PayPal,Bi-Weekly
+722,57,Female,Shoes,Footwear,30,M,Maroon,Summer,2.9,No,PayPal,Free Shipping,No,No,27,PayPal,Weekly
+723,19,Female,Coat,Outerwear,91,L,Beige,Winter,3.2,No,Credit Card,Next Day Air,No,No,9,Venmo,Monthly
+724,33,Female,Boots,Footwear,71,M,Brown,Spring,3.8,No,Venmo,Next Day Air,No,No,21,PayPal,Bi-Weekly
+725,33,Female,Scarf,Accessories,64,L,Green,Summer,3.6,No,Venmo,2-Day Shipping,No,No,23,Credit Card,Monthly
+726,38,Female,Hat,Accessories,54,M,Blue,Summer,4.3,No,Bank Transfer,Next Day Air,No,No,3,Debit Card,Bi-Weekly
+727,47,Female,Socks,Clothing,35,XL,Magenta,Fall,4.8,No,PayPal,2-Day Shipping,No,No,31,Credit Card,Annually
+728,39,Female,T-shirt,Clothing,38,XL,Turquoise,Winter,2.5,No,Bank Transfer,Store Pickup,No,No,44,Cash,Annually
+729,32,Female,Jewelry,Accessories,69,M,Gray,Fall,2.5,No,Debit Card,Next Day Air,No,No,20,Venmo,Monthly
+730,27,Female,Skirt,Clothing,96,S,Purple,Winter,4.6,No,Debit Card,Express,No,No,34,Debit Card,Weekly
+731,67,Female,Socks,Clothing,73,M,Lavender,Winter,4.2,No,Credit Card,Next Day Air,No,No,17,Bank Transfer,Every 3 Months
+732,46,Female,Belt,Accessories,49,S,Green,Summer,4.2,No,Cash,Express,No,No,20,Venmo,Annually
+733,36,Female,Boots,Footwear,44,M,Gray,Summer,4.8,No,Credit Card,2-Day Shipping,No,No,46,PayPal,Every 3 Months
+734,62,Female,Socks,Clothing,93,M,Yellow,Spring,4.5,No,Cash,Free Shipping,No,No,28,PayPal,Annually
+735,31,Female,Pants,Clothing,72,S,Orange,Summer,3.3,No,PayPal,2-Day Shipping,No,No,6,Venmo,Fortnightly
+736,68,Female,Socks,Clothing,91,M,Beige,Summer,2.7,No,Debit Card,2-Day Shipping,No,No,50,Debit Card,Bi-Weekly
+737,57,Female,Belt,Accessories,83,L,Peach,Winter,2.8,No,Venmo,2-Day Shipping,No,No,41,Bank Transfer,Monthly
+738,22,Female,Jacket,Outerwear,62,S,Green,Winter,3.5,No,Venmo,2-Day Shipping,No,No,50,PayPal,Annually
+739,26,Female,Shirt,Clothing,71,M,Violet,Fall,3,No,Debit Card,Store Pickup,No,No,33,Credit Card,Monthly
+740,43,Female,Gloves,Accessories,93,M,Gray,Summer,4.5,No,Cash,Express,No,No,25,Venmo,Quarterly
+741,45,Female,Handbag,Accessories,63,L,Magenta,Fall,4.3,No,Credit Card,2-Day Shipping,No,No,2,PayPal,Weekly
+742,64,Female,Sweater,Clothing,96,XL,Charcoal,Fall,4.1,No,Debit Card,Standard,No,No,15,Credit Card,Annually
+743,28,Female,Skirt,Clothing,78,M,Violet,Spring,4.3,No,Venmo,Next Day Air,No,No,12,PayPal,Weekly
+744,47,Female,Dress,Clothing,24,L,Silver,Summer,5,No,PayPal,Free Shipping,No,No,28,Cash,Bi-Weekly
+745,53,Female,Pants,Clothing,63,S,Green,Summer,3.8,No,Cash,2-Day Shipping,No,No,12,Bank Transfer,Bi-Weekly
+746,42,Female,Hat,Accessories,58,M,Magenta,Fall,4.9,No,Venmo,Standard,No,No,3,Debit Card,Annually
+747,51,Female,Boots,Footwear,55,S,Purple,Spring,5,No,Debit Card,2-Day Shipping,No,No,20,Cash,Weekly
+748,62,Female,Sandals,Footwear,58,M,Blue,Fall,4.3,No,Debit Card,Express,No,No,3,Bank Transfer,Bi-Weekly
+749,18,Female,Coat,Outerwear,28,S,Yellow,Winter,4.1,No,PayPal,Express,No,No,32,Bank Transfer,Fortnightly
+750,48,Female,Blouse,Clothing,37,M,Brown,Spring,4.5,No,PayPal,Standard,No,No,35,Cash,Monthly
+751,20,Female,Shorts,Clothing,78,M,Pink,Spring,3.6,No,PayPal,Store Pickup,No,No,31,PayPal,Monthly
+752,32,Female,Blouse,Clothing,73,XL,Silver,Fall,3,No,Bank Transfer,Free Shipping,No,No,13,Credit Card,Annually
+753,26,Female,Jacket,Outerwear,20,M,Indigo,Spring,3.7,No,Credit Card,Next Day Air,No,No,3,Venmo,Fortnightly
+754,31,Female,Shirt,Clothing,60,L,Pink,Winter,4.3,No,Venmo,Standard,No,No,48,Venmo,Bi-Weekly
+755,55,Female,Handbag,Accessories,71,S,Lavender,Fall,4.6,No,Cash,Store Pickup,No,No,15,PayPal,Bi-Weekly
+756,49,Female,T-shirt,Clothing,89,M,Orange,Fall,4.7,No,Bank Transfer,Standard,No,No,13,Venmo,Annually
+757,42,Female,Hoodie,Clothing,53,M,Red,Fall,4.6,No,Bank Transfer,Express,No,No,21,Venmo,Monthly
+758,64,Female,Jewelry,Accessories,87,M,Gray,Summer,3,No,Bank Transfer,Express,No,No,29,Cash,Fortnightly
+759,68,Female,Jewelry,Accessories,37,L,Violet,Spring,3.4,No,PayPal,Standard,No,No,24,Venmo,Quarterly
+760,68,Female,Hoodie,Clothing,37,L,Green,Fall,3.8,No,Venmo,Express,No,No,21,PayPal,Annually
+761,41,Female,Scarf,Accessories,78,M,Gold,Spring,3.1,No,Credit Card,Express,No,No,5,Bank Transfer,Bi-Weekly
+762,51,Female,Shoes,Footwear,23,S,Maroon,Spring,4.4,No,Venmo,Standard,No,No,47,Cash,Quarterly
+763,44,Female,Jeans,Clothing,73,L,Olive,Spring,4.5,No,Bank Transfer,Standard,No,No,34,Credit Card,Every 3 Months
+764,27,Female,Jewelry,Accessories,27,M,Yellow,Fall,2.8,No,Debit Card,2-Day Shipping,No,No,45,PayPal,Fortnightly
+765,36,Female,Coat,Outerwear,59,S,Peach,Winter,2.7,No,Debit Card,Next Day Air,No,No,12,PayPal,Annually
+766,19,Female,Backpack,Accessories,53,M,Gold,Spring,3.4,No,Bank Transfer,Standard,No,No,31,Debit Card,Weekly
+767,49,Female,Socks,Clothing,42,S,Purple,Summer,4.6,No,Debit Card,Standard,No,No,43,Bank Transfer,Annually
+768,18,Female,Scarf,Accessories,45,M,Charcoal,Fall,5,No,Bank Transfer,Next Day Air,No,No,5,Credit Card,Annually
+769,36,Female,Sunglasses,Accessories,89,S,Indigo,Winter,3.5,No,Credit Card,Standard,No,No,36,Debit Card,Quarterly
+770,36,Female,Socks,Clothing,85,L,Magenta,Fall,3.3,No,Bank Transfer,Store Pickup,No,No,12,Cash,Annually
+771,19,Female,Coat,Outerwear,69,S,Olive,Summer,4.5,No,Cash,Free Shipping,No,No,31,Cash,Bi-Weekly
+772,43,Female,Sandals,Footwear,66,S,Blue,Spring,3.1,No,Cash,Store Pickup,No,No,31,Cash,Bi-Weekly
+773,31,Female,Blouse,Clothing,42,S,White,Summer,4,No,Bank Transfer,Free Shipping,No,No,15,Debit Card,Weekly
+774,63,Female,Dress,Clothing,40,M,Cyan,Spring,2.5,No,Credit Card,Express,No,No,11,Cash,Weekly
+775,41,Female,Pants,Clothing,82,M,Cyan,Winter,4.4,No,PayPal,Store Pickup,No,No,18,Venmo,Monthly
+776,48,Female,Sneakers,Footwear,88,M,Orange,Spring,4.4,No,Debit Card,Express,No,No,9,Cash,Quarterly
+777,68,Female,Boots,Footwear,99,XL,Orange,Summer,3.2,No,Credit Card,Free Shipping,No,No,11,Cash,Weekly
+778,53,Female,Handbag,Accessories,85,S,Teal,Spring,3.8,No,PayPal,Store Pickup,No,No,38,Debit Card,Bi-Weekly
+779,36,Female,Handbag,Accessories,57,M,Magenta,Fall,4.6,No,PayPal,Store Pickup,No,No,42,PayPal,Quarterly
+780,46,Female,Sweater,Clothing,56,S,Orange,Summer,4.9,No,PayPal,Standard,No,No,41,Cash,Monthly
+781,21,Female,Sandals,Footwear,79,L,Peach,Winter,3.5,No,Cash,Free Shipping,No,No,45,PayPal,Monthly
+782,52,Female,Socks,Clothing,67,S,Maroon,Summer,3.4,No,Credit Card,Store Pickup,No,No,41,Debit Card,Bi-Weekly
+783,66,Female,Gloves,Accessories,61,M,Gold,Winter,3.9,No,Venmo,Next Day Air,No,No,35,Debit Card,Weekly
+784,19,Female,Hoodie,Clothing,37,L,White,Winter,3.9,No,Venmo,Express,No,No,21,Credit Card,Every 3 Months
+785,44,Female,Dress,Clothing,75,L,Gray,Fall,4.2,No,Debit Card,Free Shipping,No,No,13,Credit Card,Bi-Weekly
+786,50,Female,Shirt,Clothing,21,XL,Brown,Winter,3.4,No,Debit Card,Standard,No,No,23,Debit Card,Fortnightly
+787,51,Female,Shorts,Clothing,89,L,Charcoal,Winter,4.9,No,Debit Card,Standard,No,No,6,PayPal,Weekly
+788,25,Female,Sandals,Footwear,24,L,Beige,Fall,2.9,No,Debit Card,Store Pickup,No,No,39,Bank Transfer,Annually
+789,62,Female,Sweater,Clothing,27,XL,Teal,Spring,4.9,No,Cash,Store Pickup,No,No,7,Cash,Quarterly
+790,48,Female,Dress,Clothing,26,L,Black,Summer,4.6,No,Bank Transfer,2-Day Shipping,No,No,32,PayPal,Every 3 Months
+791,62,Female,Boots,Footwear,82,M,Violet,Spring,3.6,No,Venmo,Store Pickup,No,No,43,Credit Card,Quarterly
+792,22,Female,Pants,Clothing,28,M,Orange,Winter,4.3,No,Bank Transfer,Express,No,No,15,Cash,Monthly
+793,48,Female,Gloves,Accessories,65,M,Turquoise,Fall,4.6,No,PayPal,Standard,No,No,48,Bank Transfer,Annually
+794,48,Female,Pants,Clothing,82,XL,Black,Winter,4.7,No,Cash,Store Pickup,No,No,35,Credit Card,Weekly
+795,62,Female,Scarf,Accessories,38,M,Silver,Winter,3.5,No,Credit Card,Free Shipping,No,No,41,PayPal,Quarterly
+796,24,Female,Shorts,Clothing,33,XL,Gray,Spring,2.8,No,Debit Card,Free Shipping,No,No,14,Cash,Weekly
+797,39,Female,Shoes,Footwear,38,M,Pink,Summer,4,No,Cash,Free Shipping,No,No,22,PayPal,Monthly
+798,35,Female,Handbag,Accessories,48,M,Red,Spring,4.3,No,PayPal,Store Pickup,No,No,16,Venmo,Every 3 Months
+799,47,Female,Sandals,Footwear,35,M,Lavender,Summer,3.8,No,PayPal,Standard,No,No,2,Bank Transfer,Bi-Weekly
+800,22,Female,Socks,Clothing,29,L,Indigo,Fall,3,No,Bank Transfer,Next Day Air,No,No,13,PayPal,Every 3 Months
+801,38,Female,Shirt,Clothing,48,S,Silver,Fall,4.6,No,Credit Card,Next Day Air,No,No,38,Debit Card,Fortnightly
+802,53,Female,Shoes,Footwear,87,M,Silver,Fall,4.8,No,Bank Transfer,Standard,No,No,43,Bank Transfer,Weekly
+803,31,Female,Backpack,Accessories,62,M,Green,Fall,4.7,No,Bank Transfer,Next Day Air,No,No,26,Bank Transfer,Quarterly
+804,31,Female,Shirt,Clothing,96,M,Pink,Spring,3.9,No,Cash,Free Shipping,No,No,39,Cash,Weekly
+805,65,Female,Handbag,Accessories,41,S,Violet,Fall,4,No,Bank Transfer,Next Day Air,No,No,50,Venmo,Monthly
+806,48,Female,Jewelry,Accessories,42,L,Red,Winter,3.7,No,Cash,2-Day Shipping,No,No,40,Bank Transfer,Every 3 Months
+807,18,Female,Shirt,Clothing,57,L,Olive,Winter,3.7,No,Venmo,2-Day Shipping,No,No,12,Cash,Fortnightly
+808,46,Female,Handbag,Accessories,65,S,Purple,Spring,4.2,No,Bank Transfer,Store Pickup,No,No,33,Credit Card,Every 3 Months
+809,52,Female,Pants,Clothing,54,M,Gray,Fall,4.7,No,Venmo,Standard,No,No,49,Bank Transfer,Weekly
+810,50,Female,T-shirt,Clothing,22,L,Brown,Winter,4.3,No,Cash,Next Day Air,No,No,43,Venmo,Bi-Weekly
+811,49,Female,Sneakers,Footwear,96,S,Orange,Fall,4.9,No,Credit Card,2-Day Shipping,No,No,14,Venmo,Monthly
+812,69,Female,Jewelry,Accessories,81,M,Blue,Summer,3.9,No,Venmo,2-Day Shipping,No,No,21,Credit Card,Every 3 Months
+813,36,Female,Shirt,Clothing,46,M,White,Fall,3.4,No,Bank Transfer,Free Shipping,No,No,31,Debit Card,Quarterly
+814,30,Female,Blouse,Clothing,74,XL,Charcoal,Spring,4.2,No,Bank Transfer,Store Pickup,No,No,29,Credit Card,Fortnightly
+815,25,Female,Sneakers,Footwear,50,XL,Gray,Winter,4.7,No,Venmo,Express,No,No,32,Cash,Monthly
+816,19,Female,Dress,Clothing,80,XL,Charcoal,Winter,4,No,PayPal,Next Day Air,No,No,16,Debit Card,Bi-Weekly
+817,34,Female,Boots,Footwear,56,S,White,Summer,4,No,Venmo,Free Shipping,No,No,38,PayPal,Bi-Weekly
+818,29,Female,Skirt,Clothing,69,M,Orange,Winter,3.1,No,Debit Card,Next Day Air,No,No,34,Debit Card,Every 3 Months
+819,50,Female,Shirt,Clothing,97,M,Black,Spring,4.2,No,Bank Transfer,Standard,No,No,30,PayPal,Quarterly
+820,31,Female,Shorts,Clothing,66,M,White,Winter,3.7,No,Credit Card,Next Day Air,No,No,14,Bank Transfer,Fortnightly
+821,41,Female,Hat,Accessories,70,S,Brown,Spring,3.1,No,PayPal,Express,No,No,33,Bank Transfer,Monthly
+822,52,Female,Shoes,Footwear,50,M,Pink,Winter,3.7,No,Credit Card,Store Pickup,No,No,35,Venmo,Weekly
+823,27,Female,Pants,Clothing,85,M,Yellow,Spring,3.2,No,Bank Transfer,Store Pickup,No,No,13,Cash,Quarterly
+824,49,Female,Backpack,Accessories,59,M,Cyan,Summer,2.8,No,PayPal,Standard,No,No,30,Cash,Fortnightly
+825,69,Female,Pants,Clothing,74,L,Silver,Summer,2.9,No,Credit Card,Free Shipping,No,No,30,Credit Card,Monthly
+826,45,Female,Sunglasses,Accessories,38,L,Olive,Winter,3.5,No,PayPal,Standard,No,No,47,Bank Transfer,Annually
+827,20,Female,Sweater,Clothing,99,M,Olive,Spring,3.8,No,PayPal,Express,No,No,1,PayPal,Every 3 Months
+828,25,Female,Blouse,Clothing,97,S,Charcoal,Spring,4.7,No,Cash,Free Shipping,No,No,1,Cash,Weekly
+829,38,Female,Scarf,Accessories,67,L,Gray,Summer,4.5,No,Cash,Free Shipping,No,No,33,PayPal,Annually
+830,55,Female,T-shirt,Clothing,20,S,Maroon,Winter,3.9,No,Credit Card,Next Day Air,No,No,43,Bank Transfer,Weekly
+831,62,Female,Sunglasses,Accessories,45,L,Black,Spring,3.4,No,Bank Transfer,Express,No,No,37,PayPal,Weekly
+832,54,Female,Shoes,Footwear,52,XL,Violet,Winter,4.6,No,Credit Card,2-Day Shipping,No,No,23,Cash,Quarterly
+833,61,Female,Pants,Clothing,68,L,Indigo,Fall,4.6,No,Credit Card,Standard,No,No,12,Credit Card,Annually
+834,50,Female,Sneakers,Footwear,98,L,Yellow,Fall,4.7,No,Venmo,Standard,No,No,30,Venmo,Fortnightly
+835,65,Female,Shoes,Footwear,83,M,Gray,Fall,3.2,No,Venmo,Express,No,No,7,Cash,Weekly
+836,68,Female,Shorts,Clothing,51,M,Red,Summer,5,No,Bank Transfer,Express,No,No,20,Debit Card,Monthly
+837,55,Female,Handbag,Accessories,21,L,Peach,Spring,4.5,No,Venmo,Express,No,No,10,Venmo,Monthly
+838,57,Female,Handbag,Accessories,92,M,Gray,Spring,3.5,No,Venmo,Standard,No,No,40,Credit Card,Every 3 Months
+839,56,Female,Shoes,Footwear,63,S,White,Spring,4.5,No,Venmo,Store Pickup,No,No,21,Venmo,Monthly
+840,29,Female,Jewelry,Accessories,56,S,Green,Spring,3.2,No,Venmo,Express,No,No,17,Credit Card,Bi-Weekly
+841,24,Female,Shorts,Clothing,95,M,Magenta,Spring,4.6,No,Bank Transfer,Free Shipping,No,No,5,Bank Transfer,Weekly
+842,59,Female,Blouse,Clothing,66,M,Olive,Winter,4,No,Cash,Next Day Air,No,No,22,PayPal,Annually
+843,62,Female,Coat,Outerwear,28,S,Olive,Spring,4.2,No,Bank Transfer,Express,No,No,5,Venmo,Weekly
+844,58,Female,Hat,Accessories,83,M,Blue,Winter,4.1,No,Credit Card,Standard,No,No,18,PayPal,Every 3 Months
+845,64,Female,Socks,Clothing,55,XL,Charcoal,Fall,3.6,No,PayPal,2-Day Shipping,No,No,42,Cash,Every 3 Months
+846,48,Female,Sandals,Footwear,28,M,Yellow,Spring,3.7,No,Venmo,2-Day Shipping,No,No,22,Debit Card,Annually
+847,60,Female,Scarf,Accessories,79,M,Violet,Summer,3.6,No,Bank Transfer,Free Shipping,No,No,37,Bank Transfer,Bi-Weekly
+848,52,Female,Scarf,Accessories,31,L,Magenta,Summer,3.8,No,Debit Card,Standard,No,No,23,Credit Card,Annually
+849,63,Female,Blouse,Clothing,37,M,Red,Fall,3,No,Venmo,Standard,No,No,47,Debit Card,Fortnightly
+850,44,Female,T-shirt,Clothing,34,M,Cyan,Summer,3.4,No,Credit Card,2-Day Shipping,No,No,11,Bank Transfer,Fortnightly
+851,63,Female,Shoes,Footwear,74,S,Orange,Winter,4.8,No,Venmo,Standard,No,No,32,Cash,Weekly
+852,66,Female,Gloves,Accessories,31,L,Black,Spring,2.6,No,Credit Card,Store Pickup,No,No,20,Venmo,Weekly
+853,22,Female,Sunglasses,Accessories,66,M,Blue,Winter,2.9,No,Credit Card,Next Day Air,No,No,3,PayPal,Quarterly
+854,62,Female,Shoes,Footwear,99,M,Charcoal,Spring,4.9,No,Cash,Free Shipping,No,No,32,Bank Transfer,Weekly
+855,39,Female,Dress,Clothing,55,M,Indigo,Spring,5,No,Bank Transfer,Free Shipping,No,No,5,Credit Card,Fortnightly
+856,25,Female,Blouse,Clothing,23,L,Silver,Spring,4.6,No,PayPal,Next Day Air,No,No,45,Cash,Quarterly
+857,70,Female,Sweater,Clothing,88,M,Brown,Fall,4.2,No,Bank Transfer,Express,No,No,43,Cash,Bi-Weekly
+858,52,Female,Jacket,Outerwear,26,M,Peach,Summer,4.9,No,PayPal,Next Day Air,No,No,1,PayPal,Every 3 Months
+859,68,Female,Backpack,Accessories,94,L,Magenta,Summer,4.8,No,Credit Card,Standard,No,No,9,Venmo,Quarterly
+860,18,Female,Shorts,Clothing,25,M,Beige,Fall,3,No,Debit Card,Next Day Air,No,No,13,Venmo,Every 3 Months
+861,18,Female,Socks,Clothing,96,XL,Violet,Fall,3.5,No,Cash,Express,No,No,5,Credit Card,Annually
+862,63,Female,Sneakers,Footwear,29,L,Black,Spring,3.4,No,Cash,Standard,No,No,39,Credit Card,Fortnightly
+863,47,Female,Sneakers,Footwear,36,M,Cyan,Winter,3.4,No,PayPal,Free Shipping,No,No,7,Bank Transfer,Weekly
+864,43,Female,Blouse,Clothing,90,M,Green,Summer,4.9,No,Credit Card,Standard,No,No,8,Credit Card,Every 3 Months
+865,60,Female,Gloves,Accessories,38,S,Brown,Summer,4.4,No,PayPal,Free Shipping,No,No,40,Venmo,Annually
+866,49,Female,Handbag,Accessories,52,S,Gray,Spring,4.2,No,Cash,Store Pickup,No,No,35,PayPal,Monthly
+867,28,Female,Jeans,Clothing,88,S,Orange,Spring,3.1,No,Credit Card,Next Day Air,No,No,14,Venmo,Monthly
+868,32,Female,Scarf,Accessories,56,S,Silver,Summer,4,No,Venmo,Next Day Air,No,No,26,Credit Card,Monthly
+869,29,Female,Sandals,Footwear,71,M,Purple,Spring,4.8,No,Cash,Next Day Air,No,No,14,PayPal,Quarterly
+870,35,Female,Sandals,Footwear,94,M,Olive,Fall,3.3,No,Credit Card,Express,No,No,9,Bank Transfer,Fortnightly
+871,23,Female,Dress,Clothing,97,XL,Teal,Winter,4.7,No,PayPal,Standard,No,No,32,Debit Card,Annually
+872,70,Female,Skirt,Clothing,27,M,White,Summer,3.2,No,Cash,Standard,No,No,15,Bank Transfer,Every 3 Months
+873,23,Female,Shorts,Clothing,28,M,Black,Spring,5,No,Bank Transfer,Standard,No,No,25,Credit Card,Monthly
+874,43,Female,Jeans,Clothing,67,L,Maroon,Fall,4.9,No,Cash,Free Shipping,No,No,27,PayPal,Monthly
+875,29,Female,Socks,Clothing,70,M,Cyan,Fall,4.9,No,Cash,Express,No,No,39,Bank Transfer,Quarterly
+876,61,Female,Coat,Outerwear,95,M,Violet,Fall,3.7,No,Cash,Express,No,No,49,Venmo,Bi-Weekly
+877,29,Female,Boots,Footwear,24,L,Yellow,Spring,3,No,Cash,Express,No,No,12,Venmo,Bi-Weekly
+878,66,Female,Belt,Accessories,35,S,Yellow,Winter,2.6,No,PayPal,Standard,No,No,13,Bank Transfer,Weekly
+879,46,Female,Shoes,Footwear,22,L,Olive,Winter,2.6,No,Credit Card,Standard,No,No,22,Bank Transfer,Quarterly
+880,34,Female,Scarf,Accessories,66,L,Olive,Fall,4.8,No,Bank Transfer,Standard,No,No,19,Credit Card,Every 3 Months
+881,51,Female,Blouse,Clothing,83,M,Magenta,Summer,3.2,No,Bank Transfer,2-Day Shipping,No,No,3,Cash,Bi-Weekly
+882,26,Female,Dress,Clothing,95,M,Orange,Fall,4.9,No,Venmo,Next Day Air,No,No,50,Credit Card,Weekly
+883,23,Female,Shorts,Clothing,41,S,Beige,Summer,3.4,No,Cash,2-Day Shipping,No,No,15,PayPal,Annually
+884,52,Female,Blouse,Clothing,77,L,Brown,Summer,2.7,No,Debit Card,Store Pickup,No,No,44,Credit Card,Every 3 Months
+885,39,Female,Sneakers,Footwear,52,L,Indigo,Fall,4.8,No,Debit Card,Express,No,No,48,Debit Card,Monthly
+886,39,Female,Gloves,Accessories,41,XL,Gray,Winter,4.1,No,Cash,Standard,No,No,4,Venmo,Bi-Weekly
+887,33,Female,Hoodie,Clothing,28,M,Yellow,Winter,4.6,No,PayPal,Store Pickup,No,No,12,PayPal,Bi-Weekly
+888,33,Female,Sweater,Clothing,90,S,Violet,Summer,4.4,No,Debit Card,Standard,No,No,33,Debit Card,Annually
+889,23,Female,Sunglasses,Accessories,55,M,Magenta,Spring,3.5,No,Bank Transfer,2-Day Shipping,No,No,40,Cash,Annually
+890,31,Female,Belt,Accessories,73,M,Blue,Spring,4.8,No,Cash,Next Day Air,No,No,38,Cash,Every 3 Months
+891,27,Female,Dress,Clothing,87,M,Gray,Fall,2.9,No,PayPal,2-Day Shipping,No,No,19,Venmo,Every 3 Months
+892,48,Female,Jacket,Outerwear,89,M,Gold,Winter,3.2,No,Cash,2-Day Shipping,No,No,38,Bank Transfer,Quarterly
+893,61,Female,Boots,Footwear,82,L,Lavender,Spring,4.4,No,Cash,2-Day Shipping,No,No,18,Venmo,Fortnightly
+894,63,Female,Sandals,Footwear,80,M,Black,Spring,4.6,No,Bank Transfer,Next Day Air,No,No,24,PayPal,Monthly
+895,19,Female,Scarf,Accessories,87,L,Charcoal,Summer,2.6,No,PayPal,2-Day Shipping,No,No,29,Venmo,Quarterly
+896,21,Female,Blouse,Clothing,41,M,Violet,Spring,3.1,No,Cash,Store Pickup,No,No,14,PayPal,Annually
+897,28,Female,Hoodie,Clothing,83,M,Charcoal,Spring,4.3,No,Bank Transfer,Standard,No,No,44,Cash,Fortnightly
+898,29,Female,Sunglasses,Accessories,71,M,Maroon,Summer,3.1,No,Cash,Standard,No,No,18,Bank Transfer,Quarterly
+899,23,Female,Hoodie,Clothing,76,XL,Purple,Spring,4.6,No,Bank Transfer,Store Pickup,No,No,19,Bank Transfer,Bi-Weekly
+900,37,Female,Scarf,Accessories,34,S,Peach,Spring,4.6,No,Cash,Express,No,No,4,Cash,Weekly
+901,67,Female,Dress,Clothing,81,XL,Olive,Spring,2.7,No,PayPal,Free Shipping,No,No,25,Cash,Bi-Weekly
+902,34,Female,T-shirt,Clothing,47,M,Indigo,Summer,3,No,Debit Card,Next Day Air,No,No,3,PayPal,Monthly
+903,58,Female,Skirt,Clothing,36,S,Magenta,Summer,3.3,No,Bank Transfer,Store Pickup,No,No,40,Debit Card,Quarterly
+904,45,Female,Jeans,Clothing,51,M,Gold,Spring,2.7,No,Debit Card,Free Shipping,No,No,5,Cash,Weekly
+905,63,Female,Hoodie,Clothing,86,M,Orange,Fall,3.3,No,Bank Transfer,Standard,No,No,17,Debit Card,Annually
+906,68,Female,Jeans,Clothing,41,M,Gold,Fall,4.3,No,Venmo,Store Pickup,No,No,36,Bank Transfer,Every 3 Months
+907,41,Female,Sandals,Footwear,90,XL,Purple,Fall,4.8,No,Cash,Express,No,No,41,Venmo,Annually
+908,50,Female,Hat,Accessories,93,L,Charcoal,Fall,3.3,No,Debit Card,Standard,No,No,20,Venmo,Bi-Weekly
+909,24,Female,Gloves,Accessories,56,M,Cyan,Fall,4.3,No,Bank Transfer,Next Day Air,No,No,2,Cash,Every 3 Months
+910,21,Female,Socks,Clothing,39,M,Cyan,Summer,3,No,Debit Card,2-Day Shipping,No,No,31,Debit Card,Monthly
+911,18,Female,Jacket,Outerwear,86,XL,Green,Fall,4.8,No,Credit Card,2-Day Shipping,No,No,23,Bank Transfer,Fortnightly
+912,63,Female,T-shirt,Clothing,82,M,Silver,Spring,2.9,No,PayPal,Standard,No,No,30,Credit Card,Annually
+913,47,Female,Sandals,Footwear,29,M,Teal,Summer,3.6,No,Credit Card,Standard,No,No,26,Cash,Every 3 Months
+914,58,Female,Hat,Accessories,27,M,Magenta,Fall,3.5,No,Cash,Store Pickup,No,No,40,Venmo,Annually
+915,46,Female,Gloves,Accessories,25,L,Maroon,Spring,4.7,No,Bank Transfer,2-Day Shipping,No,No,19,Bank Transfer,Annually
+916,35,Female,Dress,Clothing,31,M,Gold,Winter,4.4,No,Bank Transfer,Free Shipping,No,No,4,Credit Card,Monthly
+917,42,Female,Hoodie,Clothing,23,L,Purple,Winter,3.3,No,Cash,Store Pickup,No,No,33,Debit Card,Fortnightly
+918,48,Female,Belt,Accessories,47,M,Lavender,Fall,4.3,No,Debit Card,Express,No,No,29,Debit Card,Monthly
+919,28,Female,Gloves,Accessories,67,M,Maroon,Fall,4,No,Venmo,2-Day Shipping,No,No,47,PayPal,Bi-Weekly
+920,44,Female,Scarf,Accessories,75,S,Magenta,Winter,4.9,No,Cash,2-Day Shipping,No,No,50,Venmo,Weekly
+921,60,Female,Sandals,Footwear,82,M,Turquoise,Summer,2.9,No,Credit Card,Express,No,No,28,Credit Card,Fortnightly
+922,38,Female,Sneakers,Footwear,32,XL,Silver,Summer,4,No,Venmo,2-Day Shipping,No,No,5,Cash,Fortnightly
+923,46,Female,Dress,Clothing,41,M,Purple,Fall,4.3,No,Bank Transfer,Store Pickup,No,No,12,Credit Card,Annually
+924,39,Female,Jewelry,Accessories,89,M,Violet,Winter,2.7,No,Venmo,2-Day Shipping,No,No,4,PayPal,Weekly
+925,22,Female,Hat,Accessories,82,XL,Peach,Fall,5,No,PayPal,Store Pickup,No,No,22,Bank Transfer,Bi-Weekly
+926,44,Female,Scarf,Accessories,99,L,Green,Winter,4.4,No,Debit Card,Express,No,No,32,PayPal,Weekly
+927,69,Female,Blouse,Clothing,98,L,Teal,Fall,3.5,No,Bank Transfer,Express,No,No,32,Venmo,Quarterly
+928,39,Female,Belt,Accessories,54,M,Silver,Winter,3.3,No,Credit Card,Next Day Air,No,No,48,Cash,Every 3 Months
+929,53,Female,Blouse,Clothing,88,L,Purple,Summer,3.8,No,Cash,Free Shipping,No,No,35,Credit Card,Monthly
+930,52,Female,T-shirt,Clothing,43,L,Lavender,Summer,4.5,No,Credit Card,Standard,No,No,44,Debit Card,Fortnightly
+931,65,Female,Hat,Accessories,73,M,Lavender,Winter,4.8,No,Credit Card,Store Pickup,No,No,29,Cash,Weekly
+932,48,Female,Hat,Accessories,50,M,Peach,Fall,2.9,No,Debit Card,Store Pickup,No,No,26,Credit Card,Monthly
+933,27,Female,Sneakers,Footwear,73,L,Green,Spring,3.2,No,PayPal,Express,No,No,3,Debit Card,Quarterly
+934,39,Female,Gloves,Accessories,51,M,Orange,Spring,2.8,No,Venmo,Free Shipping,No,No,1,Bank Transfer,Bi-Weekly
+935,59,Female,Socks,Clothing,22,M,Pink,Winter,3.3,No,Bank Transfer,Standard,No,No,17,PayPal,Annually
+936,52,Female,Sandals,Footwear,32,L,Cyan,Fall,3.3,No,Cash,Free Shipping,No,No,17,Credit Card,Fortnightly
+937,50,Female,Sandals,Footwear,38,L,Lavender,Summer,4.2,No,PayPal,2-Day Shipping,No,No,36,Cash,Weekly
+938,32,Female,Boots,Footwear,66,L,Yellow,Winter,3.6,No,PayPal,Express,No,No,32,Credit Card,Fortnightly
+939,40,Female,Backpack,Accessories,20,M,Olive,Spring,4.6,No,Credit Card,Express,No,No,50,PayPal,Bi-Weekly
+940,26,Female,Coat,Outerwear,44,M,Brown,Summer,3.6,No,Venmo,2-Day Shipping,No,No,39,Venmo,Annually
+941,47,Female,Sunglasses,Accessories,31,L,Pink,Spring,4,No,Credit Card,Next Day Air,No,No,17,PayPal,Monthly
+942,51,Female,Jacket,Outerwear,45,M,Cyan,Fall,2.7,No,Debit Card,Free Shipping,No,No,39,Bank Transfer,Every 3 Months
+943,47,Female,Dress,Clothing,71,L,Maroon,Summer,4.4,No,Credit Card,Store Pickup,No,No,5,PayPal,Annually
+944,53,Female,Scarf,Accessories,96,XL,Magenta,Fall,3.2,No,Bank Transfer,Standard,No,No,47,Debit Card,Annually
+945,35,Female,Blouse,Clothing,32,M,Violet,Winter,2.6,No,Cash,Next Day Air,No,No,18,Venmo,Weekly
+946,38,Female,Backpack,Accessories,90,L,Silver,Summer,3.4,No,Credit Card,Free Shipping,No,No,31,Credit Card,Every 3 Months
+947,69,Female,Jewelry,Accessories,68,M,Maroon,Spring,5,No,Credit Card,2-Day Shipping,No,No,39,Debit Card,Fortnightly
+948,47,Female,Shorts,Clothing,45,M,Gray,Winter,2.9,No,Cash,Store Pickup,No,No,12,Bank Transfer,Weekly
+949,31,Female,Skirt,Clothing,67,M,White,Winter,5,No,Cash,Free Shipping,No,No,45,Cash,Bi-Weekly
+950,68,Female,Skirt,Clothing,57,M,Brown,Fall,4.4,No,Debit Card,Standard,No,No,33,Credit Card,Fortnightly
+951,51,Female,Jeans,Clothing,60,M,Silver,Summer,3.5,No,Cash,2-Day Shipping,No,No,3,PayPal,Annually
+952,20,Female,Handbag,Accessories,32,M,Yellow,Spring,3.8,No,Bank Transfer,Express,No,No,5,Venmo,Every 3 Months
+953,27,Female,Handbag,Accessories,29,S,Magenta,Fall,3.8,No,Venmo,Store Pickup,No,No,23,Debit Card,Monthly
+954,67,Female,Coat,Outerwear,20,M,Blue,Spring,3.9,No,Debit Card,Next Day Air,No,No,39,Credit Card,Fortnightly
+955,21,Female,Jewelry,Accessories,98,M,Green,Winter,3.3,No,Debit Card,Next Day Air,No,No,10,Credit Card,Annually
+956,20,Female,Sweater,Clothing,27,M,Yellow,Fall,2.9,No,Venmo,Next Day Air,No,No,4,Credit Card,Bi-Weekly
+957,35,Female,Jacket,Outerwear,67,XL,Cyan,Spring,3.7,No,Debit Card,2-Day Shipping,No,No,18,Credit Card,Monthly
+958,58,Female,Shoes,Footwear,82,L,Gold,Winter,3.7,No,Bank Transfer,Express,No,No,1,Debit Card,Every 3 Months
+959,28,Female,T-shirt,Clothing,72,M,Magenta,Fall,4.6,No,Cash,Standard,No,No,18,PayPal,Fortnightly
+960,27,Female,Sandals,Footwear,77,S,Gray,Fall,4.9,No,Bank Transfer,Store Pickup,No,No,46,Bank Transfer,Annually
+961,19,Female,Shoes,Footwear,74,L,Indigo,Winter,3.1,No,Venmo,2-Day Shipping,No,No,13,Bank Transfer,Fortnightly
+962,63,Female,Sandals,Footwear,39,S,White,Winter,3.5,No,Cash,Next Day Air,No,No,5,Credit Card,Fortnightly
+963,69,Female,Shorts,Clothing,80,M,Indigo,Spring,4.9,No,Venmo,Next Day Air,No,No,11,Debit Card,Weekly
+964,65,Female,Backpack,Accessories,59,M,Green,Summer,4.4,No,Cash,Express,No,No,49,Credit Card,Weekly
+965,63,Female,Jacket,Outerwear,68,M,Turquoise,Fall,4.4,No,Cash,Store Pickup,No,No,1,Debit Card,Fortnightly
+966,28,Female,Socks,Clothing,77,M,Peach,Fall,3.4,No,Credit Card,Next Day Air,No,No,11,Credit Card,Quarterly
+967,67,Female,Jewelry,Accessories,50,M,Olive,Winter,3,No,Credit Card,2-Day Shipping,No,No,47,Cash,Every 3 Months
+968,51,Female,Pants,Clothing,45,L,Cyan,Fall,2.6,No,Credit Card,Next Day Air,No,No,20,Venmo,Monthly
+969,59,Female,Blouse,Clothing,71,XL,Magenta,Summer,3.2,No,PayPal,Store Pickup,No,No,18,Venmo,Annually
+970,25,Female,Socks,Clothing,52,S,Silver,Fall,4.6,No,Credit Card,Store Pickup,No,No,43,PayPal,Quarterly
+971,31,Female,Shoes,Footwear,50,S,White,Winter,3.8,No,Cash,Free Shipping,No,No,4,PayPal,Every 3 Months
+972,62,Female,Handbag,Accessories,66,L,Pink,Summer,4.8,No,Bank Transfer,2-Day Shipping,No,No,20,Venmo,Quarterly
+973,51,Female,Sandals,Footwear,81,S,Pink,Fall,4.5,No,Venmo,Free Shipping,No,No,7,PayPal,Monthly
+974,32,Female,Socks,Clothing,28,M,Pink,Summer,4.2,No,Debit Card,2-Day Shipping,No,No,31,Bank Transfer,Fortnightly
+975,35,Female,Handbag,Accessories,65,M,Blue,Winter,2.7,No,Venmo,2-Day Shipping,No,No,41,Venmo,Fortnightly
+976,70,Female,Hat,Accessories,80,M,White,Winter,4.5,No,Cash,Express,No,No,3,Bank Transfer,Monthly
+977,19,Female,Jewelry,Accessories,94,S,Teal,Spring,4.9,No,PayPal,Free Shipping,No,No,16,PayPal,Monthly
+978,32,Female,Backpack,Accessories,30,M,Gray,Fall,2.8,No,Cash,Standard,No,No,43,Cash,Annually
+979,56,Female,Shirt,Clothing,45,S,Beige,Fall,3.5,No,Debit Card,Standard,No,No,29,Bank Transfer,Fortnightly
+980,53,Female,Coat,Outerwear,91,M,Violet,Summer,2.5,No,PayPal,Store Pickup,No,No,5,Cash,Bi-Weekly
+981,22,Female,Sunglasses,Accessories,36,S,Blue,Winter,2.9,No,Venmo,Standard,No,No,30,Debit Card,Quarterly
+982,26,Female,Gloves,Accessories,73,XL,Magenta,Fall,4.2,No,PayPal,Next Day Air,No,No,33,Debit Card,Monthly
+983,42,Female,Shirt,Clothing,60,M,Maroon,Fall,4.6,No,Venmo,Store Pickup,No,No,46,Venmo,Bi-Weekly
+984,30,Female,Socks,Clothing,77,M,Purple,Winter,3,No,Bank Transfer,Free Shipping,No,No,17,Venmo,Fortnightly
+985,29,Female,Skirt,Clothing,86,L,Charcoal,Spring,4.4,No,PayPal,Free Shipping,No,No,47,Credit Card,Bi-Weekly
+986,47,Female,Shorts,Clothing,42,L,Red,Summer,2.6,No,PayPal,Standard,No,No,17,Cash,Bi-Weekly
+987,59,Female,Sandals,Footwear,70,M,Charcoal,Spring,4.8,No,PayPal,Free Shipping,No,No,17,Cash,Bi-Weekly
+988,34,Female,Shirt,Clothing,44,L,Lavender,Summer,2.9,No,PayPal,Next Day Air,No,No,28,Bank Transfer,Every 3 Months
+989,52,Female,Sunglasses,Accessories,91,L,White,Spring,3,No,Venmo,Next Day Air,No,No,8,Cash,Monthly
+990,47,Female,Jewelry,Accessories,30,L,Red,Fall,4.5,No,Cash,Standard,No,No,8,Bank Transfer,Quarterly
+991,24,Female,Blouse,Clothing,23,S,Violet,Fall,3.7,No,Venmo,Store Pickup,No,No,4,Bank Transfer,Bi-Weekly
+992,63,Female,Sandals,Footwear,21,XL,Orange,Summer,4.8,No,Credit Card,Next Day Air,No,No,24,PayPal,Weekly
+993,59,Female,Coat,Outerwear,34,L,Turquoise,Spring,4.8,No,Venmo,Free Shipping,No,No,29,Cash,Fortnightly
+994,66,Female,Blouse,Clothing,46,M,Violet,Summer,4.7,No,Debit Card,2-Day Shipping,No,No,10,Venmo,Weekly
+995,45,Female,Sweater,Clothing,41,M,Blue,Winter,2.6,No,Venmo,Express,No,No,11,PayPal,Bi-Weekly
+996,38,Female,Skirt,Clothing,33,M,White,Fall,4.6,No,Bank Transfer,Standard,No,No,18,Bank Transfer,Fortnightly
+997,63,Female,Blouse,Clothing,48,L,Turquoise,Fall,3.4,No,Venmo,Next Day Air,No,No,26,Bank Transfer,Annually
+998,55,Female,Hoodie,Clothing,66,L,Pink,Winter,3,No,PayPal,Standard,No,No,39,Cash,Weekly
+999,25,Female,Skirt,Clothing,54,XL,Maroon,Spring,4,No,Credit Card,2-Day Shipping,No,No,4,Venmo,Annually
+1000,51,Female,Backpack,Accessories,55,M,Olive,Fall,2.6,No,Cash,Store Pickup,No,No,24,Bank Transfer,Weekly
