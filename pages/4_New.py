@@ -31,7 +31,7 @@ plt.plot(pivot_table.index, pivot_table['Gender'])
 plt.xlabel('Season')
 plt.ylabel('Gender')
 plt.title('Line Chart of Gender Distribution by Season')
-plt.show(
+plt.show
 
 
 #st.line_chart(
