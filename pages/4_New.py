@@ -25,7 +25,7 @@ plt.ylabel('Count')
 plt.title('Line Chart of Gender Distribution by Season')
 plt.legend(title='Gender')
 plt.grid(True)
-plt.show()
+
 
 #grouped_data = df.groupby(['Season', 'Gender']).size().reset_index(name='count')
 #pivot_table = pd.pivot_table(grouped_data, values='count', index='Season', columns='Gender', fill_value=0)
