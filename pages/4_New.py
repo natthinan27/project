@@ -25,6 +25,7 @@ plt.ylabel('Count')
 plt.title('Line Chart of Gender Distribution by Season')
 plt.legend(title='Gender')
 plt.grid(True)
+plt.show()
 
 
 #grouped_data = df.groupby(['Season', 'Gender']).size().reset_index(name='count')
