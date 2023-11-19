@@ -26,7 +26,7 @@ chart_data=pd.read_csv("./Data/shopping22.csv")
 #st.pyplot(fig)
 
 fig, ax = plt.subplots(figsize=(15, 7))
-colors = ['#F1C40F', '#7fc15a', '#ffa53b','#BB8FCE']
+colors = ['#F7DC6F', '#7fc15a', '#ffa53b','#BB8FCE']
 pivot_table.plot.bar(stacked=True, color=colors, ax=ax)
 
 plt.legend(title='Gender', bbox_to_anchor=(1.05, 1), loc='upper left')
