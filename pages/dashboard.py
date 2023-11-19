@@ -21,6 +21,6 @@ else:
     #file_path = r"C:\Users\acer\Desktop\shopping\your_file.txt"         
     #file_path = "your_file.txt"
     #file_path = "subfolder/your_file.txt"
-file_path = "/absolute/path/to/shopping22.csv"
-file_path = "shopping22.csv"
-df = pd.read_csv(file_path, encoding="ISO-8859-1")
+file_path ="/absolute/path/to/shopping22.csv"
+file_path ="shopping22.csv"
+df = pd.read_csv(file_path,encoding="ISO-8859-1")
