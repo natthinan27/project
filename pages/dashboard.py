@@ -19,7 +19,7 @@ else:
     #os.chdir("C:\\Users\\acer\\Desktop\\shopping")
     #df = pd.read_csv("shopping22.csv", encoding = "ISO-8859-1")
     file_path = "/absolute/path/to/shopping22.csv"
-     file_path = "shopping22.csv"
+    file_path = "shopping22.csv"
     df = pd.read_csv(file_path, encoding="latin1")
 #file_path = "/absolute/path/to/shopping22.csv"
 #file_path = "shopping22.csv"
