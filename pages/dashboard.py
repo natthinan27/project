@@ -23,4 +23,4 @@ else:
     file_path = "subfolder/your_file.txt"
 #file_path = "/absolute/path/to/shopping22.csv"
 #file_path = "shopping22.csv"
-df = pd.read_csv(file_path,encoding="ISO-8859-1")
+df = pd.read_csv(file_path, encoding="utf-8")
