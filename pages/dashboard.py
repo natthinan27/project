@@ -18,9 +18,9 @@ if fl is not None:
 else:
     #os.chdir("C:\\Users\\acer\\Desktop\\shopping")
     #df = pd.read_csv("shopping22.csv", encoding = "ISO-8859-1")
-    file_path = r"C:\Users\acer\Desktop\shopping\your_file.txt"         
-    file_path = "your_file.txt"
-    file_path = "subfolder/your_file.txt"
+    file_path = "/absolute/path/to/shopping22.csv"
+     file_path = "shopping22.csv"
+    df = pd.read_csv(file_path, encoding="latin1")
 #file_path = "/absolute/path/to/shopping22.csv"
 #file_path = "shopping22.csv"
-df = pd.read_csv(file_path, encoding="utf-8")
+#df = pd.read_csv(file_path, encoding="utf-8")
