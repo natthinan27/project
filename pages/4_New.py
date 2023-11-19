@@ -13,7 +13,9 @@ st.write(df.head(10))
 st.header("Show chart")
 chart_data=pd.read_csv("./Data/shopping22.csv")
 
-st.bar_chart(df)
+chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
+
+st.bar_chart(chart_data)
 
 #dftext=pd.DataFrame(df)
 #st.bar_chart(dftext['Item Purchased','Color'].value_counts())
