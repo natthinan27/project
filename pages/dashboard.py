@@ -14,9 +14,9 @@ fl = st.file_uploader(":file_folder: Upload a file",type=(["csv","txt","xlsx","x
 if fl is not None:
     filename = fl.name
     st.write(filename)
-    df = pd.read_csv(filename, encoding = "ISO-8859-1")
+    df = pd.read_csv(filename,encoding ="ISO-8859-1")
 else:
    os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    df = pd.read_csv("Superstore.csv", encoding = "ISO-8859-1")
+    df = pd.read_csv("Superstore.csv",encoding ="ISO-8859-1")
 
                                                                                                                                     
