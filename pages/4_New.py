@@ -17,7 +17,7 @@ chart_data=pd.read_csv("./Data/shopping22.csv")
 #dftext=pd.DataFrame(df)
 #st.bar_chart(dftext['Item Purchased','Color'].value_counts())
 
-grouped_data = df.groupby(['Color', 'Genders']).size().reset_index(name='count')
+grouped_data = df.groupby(['Color', 'Gender']).size().reset_index(name='count')
 pivot_table = pd.pivot_table(grouped_data, values='count', index='Color', columns='Gender', fill_value=0)
 fig, ax = plt.subplots(figsize=(15, 7))
 colors = ['#57b199', '#7fc15a', '#ffa53b']
