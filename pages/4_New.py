@@ -10,7 +10,7 @@ st.header("Show Data Index Price")
 df=pd.read_csv("./Data/shopping22.csv")
 st.write(df.head(10))
 
-st.header("Show chart")
+st.header("Show chart Gender and Size")
 chart_data=pd.read_csv("./Data/shopping22.csv")
 
 grouped_data = df.groupby(['Gender', 'Size']).size().reset_index(name='count')
@@ -21,10 +21,11 @@ pivot_table.plot.pie(subplots=True, autopct='%1.1f%%', ax=ax, colors=colors)
 plt.axis('equal')
 st.pyplot(fig)
 
-
 #st.altair_chart(altair_chart, use_container_width=False, theme="streamlit")
+st.header("Show chart Gender and Item Purchased")
+chart_data=pd.read_csv("./Data/shopping22.csv")
 group_age = df.groupby(['Item Purchased', 'Gender']).size().reset_index(name='count')
 st.bar_chart(group_age, x='Item Purchased', y='count', color='Gender', height=400)
-#colors = ['#ff6699', '#6699ff']
+
 
 
