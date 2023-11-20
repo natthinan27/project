@@ -15,25 +15,9 @@ if fl is not None:
     filename = fl.name
     st.write(filename)
     df = pd.read_csv(filename, encoding = "ISO-8859-1")
-else:
-    os.chdir(r"C:\Users\acer\Desktop\Streamlit")
-    df = pd.read_csv("shopping22.csv", encoding = "ISO-8859-1")
-    
-    col1.col2 = st.colums((2))
-    df["Order Data"] = pd.to_datetime(df["Order Data"])
 
-    # Getting the min and max data
-    startData = pd.to_datatime(df["Order Data"])
-    endData = pd.to_datatime(df["Order Data"])
-
-    with col1:
-        date1 = pd.to_datatime(st.date_input("start Data",startData))
-
-    with col2:
-        date2 = pd.to_datatime(st.date_input("End Data",endData))
-
-    df = df[(df["Order Data"] >= date1) & (df["Order Data"] <= date2)].copy()
-
-    st.sidebar.header("Choose your filter:")
-    region = st.sidebar.multiselect("Pick  your Region",df["Region"].unique())
-
+uploaded_files = st.file_uploader("Choose a CSV file", accept_multiple_files=True)
+for uploaded_file in uploaded_files:
+    bytes_data = uploaded_file.read()
+    st.write("filename:", uploaded_file.name)
+    st.write(bytes_data)
