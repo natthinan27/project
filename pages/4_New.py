@@ -40,11 +40,3 @@ st.header("Show chart Gender and Age")
 chart_data=pd.read_csv("./Data/shopping22.csv")
 group_age = df.groupby(['Age', 'Gender']).size().reset_index(name='count')
 st.bar_chart(group_age, x='Age', y='count', color='Gender', height=400)
-
-chart_data = pd.read_csv("./Data/shopping22.csv")
-group_age = chart_data.groupby(['Age', 'Gender']).size().reset_index(name='count')
-
-# กำหนดสีให้กับกราฟ
-color_palette = {'Male': 'blue', 'Female': 'pink'}
-
-#st.bar_chart(group_age, x='Age', y='count', color='Gender', height=400, color_map=color_palette)
