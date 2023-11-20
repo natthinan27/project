@@ -41,21 +41,3 @@ chart_data=pd.read_csv("./Data/shopping22.csv")
 group_age = df.groupby(['Age', 'Gender']).size().reset_index(name='count')
 st.bar_chart(group_age, x='Age', y='count', color='Gender', height=400)
 
-import altair as alt
-import streamlit as st
-import pandas as pd
-
-chart_data = pd.read_csv("./Data/shopping22.csv")
-group_age = chart_data.groupby(['Age', 'Gender']).size().reset_index(name='count')
-
-# ใช้ Altair Chart
-st.altair_chart(
-    alt.Chart(group_age)
-    .mark_bar()
-    .encode(
-        x='Age:O',  # กำหนดให้ Age เป็น Ordinal Scale (O)
-        y='count',
-        color='Gender:N',  # กำหนดให้ Gender เป็น Nominal Scale (N)
-    )
-    .properties(height=400)
-)
