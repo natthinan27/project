@@ -47,4 +47,4 @@ group_age = chart_data.groupby(['Age', 'Gender']).size().reset_index(name='count
 # กำหนดสีให้กับกราฟ
 color_palette = {'Male': 'blue', 'Female': 'pink'}
 
-st.bar_chart(group_age, x='Age', y='count', color='Gender', height=400, color_map=color_palette)
+#st.bar_chart(group_age, x='Age', y='count', color='Gender', height=400, color_map=color_palette)
