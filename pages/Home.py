@@ -19,7 +19,3 @@ html_1 = """
 st.markdown(html_1, unsafe_allow_html=True)
 st.markdown("")
 
-st.write("# การวิเคราะห์พฤติกรรมผู้บริโภคโดยการจัดกลุ่มแบบเคมีน ")
-st.write("# Analyzes Consumer Behavior by K-means clustering")
-st.write("### 2.วัตถุประสงค์")
-st.balloons()
