@@ -15,3 +15,11 @@ for uploaded_file in uploaded_files:
     bytes_data = uploaded_file.read()
     st.write("filename:", uploaded_file.name)
     st.write(bytes_data)
+
+    st.sidebar.header("Choose your filter: ")
+# Create for Region
+region = st.sidebar.multiselect("Pick your Region", df["Region"].unique())
+if not region:
+    df2 = df.copy()
+else:
+    df2 = df[df["Region"].isin(region)]
