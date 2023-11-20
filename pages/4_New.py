@@ -15,7 +15,7 @@ chart_data=pd.read_csv("./Data/shopping22.csv")
 
 #st.altair_chart(altair_chart, use_container_width=False, theme="streamlit")
 group_age = df.groupby(['Item Purchased', 'Gender']).size().reset_index(name='count')
-st.bar_chart(group_age, x='Item Purchased', y='count', color='Gender', height=400)
+#st.bar_chart(group_age, x='Item Purchased', y='count', color='Gender', height=400)
 st.bar_chart(group_age, x='Item Purchased', y='count', color=alt.Color('Gender:N', scale=alt.Scale(range=['blue', 'red'])), height=400, use_container_width=True, theme="streamlit")
 #dftext=pd.DataFrame(df)
 #st.bar_chart(dftext['Item Purchased','Color'].value_counts())
