@@ -16,7 +16,7 @@ chart_data=pd.read_csv("./Data/shopping22.csv")
 grouped_data = df.groupby(['Gender', 'Size']).size().reset_index(name='count')
 pivot_table = pd.pivot_table(grouped_data, values='count', index='Gender', columns='Size', fill_value=0)
 fig, ax = plt.subplots(figsize=(15, 7))
-colors = ['#57b199', '#7fc15a', '#ffa53b']
+colors = ['#ff6699', '#6699ff']
 pivot_table.plot.pie(subplots=True, autopct='%1.1f%%', ax=ax, colors=colors)
 plt.axis('equal')
 st.pyplot(fig)
